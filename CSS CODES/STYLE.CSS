@@ -1,0 +1,226 @@
+
+.ring1 {
+    position: relative;
+    bottom: -39.5px;
+    height: 40px; /* Increased for visibility */
+    width: 37px;
+    border-radius: 55%; /* Set to 50% for a circular shape */
+    border: 4.5px solid white; /* Added border thickness */
+    margin-left: 780px; /* Spaced from the edges */
+}
+.ring2 {
+    position: relative;
+    bottom: 7px;
+    height: 40px; /* Increased for visibility */
+    width: 37px;
+    border-radius: 50%; /* Set to 50% for a circular shape */
+    border: 4.5px solid white; /* Added border thickness */
+    margin-left: 732px; /* Spaced from the edges */
+}
+.ring3 {
+    position: relative;
+    bottom: 57px;
+    height: 40px; /* Increased for visibility */
+    width: 37px;
+    border-radius: 50%; /* Set to 50% for a circular shape */
+    border: 4.5px solid white; /* Added border thickness */
+    margin-left: 828px; /* Spaced from the edges */
+    
+}
+.ring4 {
+    position: relative;
+    bottom: 82px;
+    height: 40px; /* Increased for visibility */
+    width: 38px;
+    border-radius: 50%; /* Set to 50% for a circular shape */
+    border: 4.5px solid white; /* Added border thickness */
+    margin-left: 755px; /* Spaced from the edges */
+}
+.ring5 {
+    position: relative;
+    bottom:   130.5px;
+    height: 40px; /* Increased for visibility */
+    width: 37px;
+    border-radius: 50%; /* Set to 50% for a circular shape */
+    border: 4.5px solid white; /* Added border thickness */
+    margin-left: 806px;/* Spaced from the edges */
+}
+
+.textclass{
+    position: relative;
+    left: 755px;
+    top: -130px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 49px;
+}
+.textclass1{
+    position: relative;
+    left: 770px;
+    top: -100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 29px;
+}
+.textclass2{
+    position: relative;
+    left: 772px;
+    top: -50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 29px;
+}
+.textclass3{
+    position: relative;
+    margin-left: 765px;
+    top: -80px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 29px;
+}
+.img1{
+    position: relative;
+    top: -60px;
+    left: 750px;
+    height: 100px;
+    width: 70px;
+}
+
+.img2{
+    position: relative;
+    top: -35px;
+    left: 750px;
+    height: 100px;
+    width: 70px;
+}
+.img3{
+    position: relative;
+    top: -18px;
+    left: 745px;
+    height: 100px;
+    width: 70px;
+}
+
+.textclass4 {
+    position: relative;
+    left: 755px;
+    top: 130px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 39px;
+}
+
+.socialbox{
+    position: relative;
+    bottom: 170px;
+}
+
+.box1{
+    position: relative;
+    background-color: aliceblue;
+    height: 90px;
+    width: 300px;
+    border: 2px solid white;
+    left: 710px;
+    top: 105px;
+}
+.facebook{
+    position: relative;
+    height: 75px;
+    width: 55px;
+    top: 10px;
+    left: -50px;
+}
+
+.text01{
+    position: relative;
+    left: 55px;
+    top: -22px;
+
+}
+
+.box2{
+    position: relative;
+    background-color: aliceblue;
+    height: 90px;
+    width: 300px;
+    border: 2px solid white;
+    left: 1100px;
+    top: 12.5px;
+   
+}
+.text02{
+    position: relative;
+    left: 90px;
+    top: -20px;
+
+}
+
+.google{
+    position: relative;
+    height: 70px;
+    width: 55px;
+    top: 7px;
+    left: -90px;
+
+}
+
+.box3{
+    position: relative;
+    background-color: aliceblue;
+    height: 90px;
+    width: 310px;
+    border: 2px solid white;
+    left: 1500px;
+    top: -80px;
+   
+}
+.text03{
+    position: relative;
+    left: 58px;
+    top: -20px;
+
+}
+.instagram{
+    position: relative;
+    height: 70px;
+    width: 55px;
+    top: 12px;
+    left: -55px;
+
+}
+.textclass5{
+    position: relative;
+    left: 755px;
+    top: 130px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 39px;
+
+}
+.boxforemail{
+    position: relative;
+    height: 90px;
+    width: 800px;
+    left: 750px;
+     border: 10px solid gray ;
+    top: 100px;
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+
+
+}
+.button{
+    height: 90px;
+    width: 200px;
+    padding: auto;
+    background-color: black;
+    position: relative;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 10px solid white;
+    left: 1590px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(116, 109, 109);
+}
+.forget{
+    position: relative;
+    left: 950px;
+}

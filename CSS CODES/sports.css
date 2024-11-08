@@ -1,0 +1,196 @@
+.text{
+    position: relative;
+    letter-spacing: 55px;
+    font-size: 210px;
+    left: 550px;
+    top: 140px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text2{
+    position: relative;
+    left: 980px;
+    top: 150px;
+
+}
+
+* Dropdown Button */
+.dropbtn {
+    position: fixed;
+    left: 300px;
+  height: 100px;
+  width: 300px;
+  background-color: #dbe0de;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: fixed;
+  display: inline-block;
+  height: 30px;
+  width: 300px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  
+  background-color: rgb(254, 254, 255);
+  
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  max-height: 230px;
+  z-index: 10;
+  user-select: none;
+  position: relative;
+  
+  width: calc(478px);
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  position: relative;
+  
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+  height: 70px;
+  width: 450px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover{
+  position: relative;
+  right: 1200px;
+  background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  position: relative;
+  right: 1200px;
+  display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #fafffa;}
+
+/* @each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+      $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+  
+      .d#{$infix}-none         { display: none !important; }
+      .d#{$infix}-inline       { display: inline !important; }
+      .d#{$infix}-inline-block { display: inline-block !important; }
+      .d#{$infix}-block        { display: block !important; }
+      .d#{$infix}-table        { display: table !important; }
+      .d#{$infix}-table-row    { display: table-row !important; }
+      .d#{$infix}-table-cell   { display: table-cell !important; }
+      .d#{$infix}-flex         { display: flex !important; }
+      .d#{$infix}-inline-flex  { display: inline-flex !important; }
+      .d#{$infix}-grid         { display: grid !important; }
+    }
+}
+
+@media print {
+    .d-print-none         { display: none !important; }
+    .d-print-inline       { display: inline !important; }
+    .d-print-inline-block { display: inline-block !important; }
+    .d-print-block        { display: block !important; }
+    .d-print-table        { display: table !important; }
+    .d-print-table-row    { display: table-row !important; }
+    .d-print-table-cell   { display: table-cell !important; }
+    .d-print-flex         { display: flex !important; }
+    .d-print-inline-flex  { display: inline-flex !important; }
+  }
+
+  
+  
+  // stylelint-disable declaration-no-important
+
+// Margin and Padding
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    @each $prop, $abbrev in (margin: m, padding: p) {
+      @each $size, $length in $spacers {
+
+        .#{$abbrev}#{$infix}-#{$size} { #{$prop}: $length !important; }
+        .#{$abbrev}t#{$infix}-#{$size},
+        .#{$abbrev}y#{$infix}-#{$size} {
+          #{$prop}-top: $length !important;
+        }
+        .#{$abbrev}r#{$infix}-#{$size},
+        .#{$abbrev}x#{$infix}-#{$size} {
+          #{$prop}-right: $length !important;
+        }
+        .#{$abbrev}b#{$infix}-#{$size},
+        .#{$abbrev}y#{$infix}-#{$size} {
+          #{$prop}-bottom: $length !important;
+        }
+        .#{$abbrev}l#{$infix}-#{$size},
+        .#{$abbrev}x#{$infix}-#{$size} {
+          #{$prop}-left: $length !important;
+        }
+      }
+    } */
+/* 
+    @each $breakpoint in map-keys($grid-breakpoints) {
+        @include media-breakpoint-up($breakpoint) {
+          $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+      
+          @each $prop, $abbrev in (margin: m, padding: p) {
+            @each $size, $length in $spacers {
+      
+              .#{$abbrev}#{$infix}-#{$size} { #{$prop}: $length !important; }
+              .#{$abbrev}t#{$infix}-#{$size},
+              .#{$abbrev}y#{$infix}-#{$size} {
+                #{$prop}-top: $length !important;
+              }
+              .#{$abbrev}r#{$infix}-#{$size},
+              .#{$abbrev}x#{$infix}-#{$size} {
+                #{$prop}-right: $length !important;
+              }
+              .#{$abbrev}b#{$infix}-#{$size},
+              .#{$abbrev}y#{$infix}-#{$size} {
+                #{$prop}-bottom: $length !important;
+              }
+              .#{$abbrev}l#{$infix}-#{$size},
+              .#{$abbrev}x#{$infix}-#{$size} {
+                #{$prop}-left: $length !important;
+              }
+            }
+          }
+      
+          // Some special margin utils
+          .m#{$infix}-auto { margin: auto !important; }
+          .mt#{$infix}-auto,
+          .my#{$infix}-auto {
+            margin-top: auto !important;
+          }
+          .mr#{$infix}-auto,
+          .mx#{$infix}-auto {
+            margin-right: auto !important;
+          }
+          .mb#{$infix}-auto,
+          .my#{$infix}-auto {
+            margin-bottom: auto !important;
+          }
+          .ml#{$infix}-auto,
+          .mx#{$infix}-auto {
+            margin-left: auto !important;
+          }
+        }
+      }
+       */
+
+    
