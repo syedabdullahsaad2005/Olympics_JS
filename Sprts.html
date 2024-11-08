@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS CODES/sports.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS CODES/sports.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
-
-</head>
-<!-- <script>
+  </head>
+  <!-- <script>
     function myFunction() {
   document.getElementById("dropdown").classList.toggle("dropdown-content");
 }
@@ -28,331 +36,318 @@ window.onclick = function(event) {
   }
 }
 </script> -->
-<style>
-    .webimage{
-    background-image: url(image/bm9hqv2gycd78gazgjwp.avif);
-    height: 400px;
-    width: 600px;
-    position: relative;
-    top: -3200px;
-    left: 140px;
-}
-.webtext{
-    position: relative;
-    letter-spacing: -4px;
-    top: -3900px;
-    left: 770px;
-    font-size: 140px;
+  <style>
+    .webimage {
+      background-image: url(image/bm9hqv2gycd78gazgjwp.avif);
+      height: 400px;
+      width: 600px;
+      position: relative;
+      top: -3200px;
+      left: 140px;
+    }
+    .webtext {
+      position: relative;
+      letter-spacing: -4px;
+      top: -3900px;
+      left: 770px;
+      font-size: 140px;
 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.webtext2{
-    position: relative;
-    top: -3900px;
-    left: 770px;
-    font-size: 30px;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    }
+    .webtext2 {
+      position: relative;
+      top: -3900px;
+      left: 770px;
+      font-size: 30px;
 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.webbox{
-    height: 90px;
-    width: 450px;
-    position: relative;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    }
+    .webbox {
+      height: 90px;
+      width: 450px;
+      position: relative;
 
-    top: -3870px;
-    left: 770px;
-    font-size: 30px;
-    background-color: black;
-    border: 2px solid black;
-    border-radius: 4px;
-    
-}
-.newstext{
-    letter-spacing: -3px;
-    position: relative;
-    left: 600px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 130px;
-    top: 5500px;
+      top: -3870px;
+      left: 770px;
+      font-size: 30px;
+      background-color: black;
+      border: 2px solid black;
+      border-radius: 4px;
+    }
+    .newstext {
+      letter-spacing: -3px;
+      position: relative;
+      left: 600px;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      font-size: 130px;
+      top: 5500px;
+    }
+    .newsimg {
+      position: relative;
+      height: 427px;
+      width: 750px;
+      transition: transform 0.2s; /* Animation */
+      top: 5600px;
+      left: 600px;
+      background-image: url(image/tzcgmk9tkua8q7eoavjh.avif);
+    }
+    .newsimg:hover {
+      transform: scale(
+        1.1
+      ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      display: inline-flex;
+      height: 427px;
+    }
+    .worldtext {
+      position: relative;
+      top: 5640px;
+      left: 595px;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      font-size: 38px;
+    }
+    .india {
+      position: relative;
+      height: 360px;
+      width: 630px;
+      transition: transform 0.2s; /* Animation */
+      top: 5040px;
+      left: 1390px;
+      background-image: url(image/hbpte1ekhti2cnustaxd.avif);
+    }
+    .india:hover {
+      transform: scale(1.2);
+      display: inline-flex;
+    }
+    .indiatext {
+      position: relative;
+      top: 5070px;
+      left: 1390px;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      font-size: 38px;
+    }
+    .booty1 {
+      background-image: url(image/1.avif);
+      height: 270px;
+      width: 450px;
+      position: relative;
+      top: 5200px;
+      left: 400px;
+    }
+    .booty1:hover {
+      transform: rotateZ(90deg);
+      transform: rotateY(150deg);
+      transform: rotateX(150deg);
+      transform: translate(30px, 20px);
+    }
+    .booty2 {
+      background-image: url(image/2.avif);
+      height: 270px;
+      width: 450px;
+      position: relative;
+      top: 4730px;
+      left: 1080px;
+    }
+    .booty2:hover {
+      /* transform: rotateZ(90deg); */
+      transform: rotateY(150deg);
+      /* transform: rotateX(150deg); */
+      transform: translate(30px, 20px);
+    }
+    .booty3 {
+      background-image: url(image/3.avif);
+      height: 270px;
+      width: 450px;
+      top: 4350px;
+      position: relative;
+      left: 1720px;
+    }
+    .booty3:hover {
+      transform: rotate(20deg);
+      transform: rotate(-20deg);
+      /* transform: rotateX(150deg); */
+      transform: translate(30px, 20px);
+    }
+    .booty1text {
+      position: relative;
+      top: 5250px;
+      left: 400px;
+      font-size: 34px;
+    }
 
-}
-.newsimg{
-    position: relative;
-    height: 427px;
-    width: 750px;
-    transition: transform .2s; /* Animation */
-    top: 5600px;
-    left: 600px;
-    background-image: url(image/tzcgmk9tkua8q7eoavjh.avif);
-  
-}
-.newsimg:hover{
-    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-     display:inline-flex;
-    height: 427px;
-}
-.worldtext{
-  
-    position: relative;
-    top: 5640px;
-    left: 595px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 38px;
-    
-}
-.india{
-    position: relative;
-    height: 360px;
-    width: 630px;
-    transition: transform .2s; /* Animation */
-    top: 5040px;
-    left: 1390px;
-    background-image: url(image/hbpte1ekhti2cnustaxd.avif);
-}
-.india:hover{
-    transform: scale(1.2);
-    display:inline-flex;
-}
-.indiatext{
-  
-  position: relative;
-  top: 5070px;
-  left: 1390px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 38px;
-  
-}
-.booty1{
-background-image: url(image/1.avif);
-height: 270px;
-width: 450px;
-position: relative;
-top: 5200px;
-left: 400px;
+    .booty2text {
+      position: relative;
+      top: 4780px;
+      left: 1080px;
+      font-size: 34px;
+    }
 
-}
-.booty1:hover{
-    transform: rotateZ(90deg);
-    transform: rotateY(150deg);
-    transform: rotateX(150deg);
-    transform: translate(30px, 20px);
+    .booty3text {
+      height: 270px;
+      width: 450px;
+      top: 4400px;
+      position: relative;
+      left: 1720px;
+      font-size: 34px;
+    }
 
-    
-}
-.booty2{
-background-image: url(image/2.avif);
-height: 270px;
-width: 450px;
-position: relative;
-top: 4730px;
-left: 1080px;
-}
-.booty2:hover{
-    /* transform: rotateZ(90deg); */
-    transform: rotateY(150deg);
-    /* transform: rotateX(150deg); */
-    transform: translate(30px, 20px);
-}
-.booty3{
-background-image: url(image/3.avif);
-height: 270px;
-width: 450px;
-top: 4350px;
-position: relative;
-left:1720px;
-}
-.booty3:hover{
-     transform: rotate(20deg);  
-    transform: rotate(-20deg);
-    /* transform: rotateX(150deg); */
-    transform: translate(30px, 20px);
-}
-.booty1text{
-position: relative;
-top: 5250px;
-left: 400px;
-font-size: 34px;
+    .livetext {
+      position: relative;
+      top: 4900px;
+      left: 380px;
+      font-size: 104px;
+    }
 
+    .red {
+      width: 280px;
+      height: 420px;
+      border: 2px solid rgb(255, 255, 255);
+      background-image: url(images/Heron-Tower-London-900x556.webp);
+      background-size: 300px;
+      background-position: top;
+      background-repeat: no-repeat;
+      position: absolute;
+      left: 285px;
+      top: 150px;
+      z-index: 2;
+      box-shadow: 0 40px 80px rgba(0, 0, 0, 0.205);
+    }
+    /* .blue {
+      width: 280px;
+      height: 520px;
+      border: 2px solid rgba(255, 255, 255, 0.915);
+      left: 700px;
+      top: 100px;
+      position: absolute;
+      z-index: 1;
+      background-image: url(images/tower\\(1\).jpeg);
+      background-size: 300px;
+      background-position: top;
+      background-repeat: no-repeat;
+      box-shadow: 0 40px 80px rgba(0, 0, 0, 0.205);
+    } */
 
-}
+    .green {
+      width: 280px;
+      height: 420px;
+      border: 2px solid rgba(248, 251, 244, 0.828);
+      background-image: url(images/asia.jpeg);
+      position: absolute;
+      background-size: 300px;
+      background-position: top;
+      background-repeat: no-repeat;
+      left: 1107px;
+      top: 150px;
+      z-index: 2;
+      box-shadow: 0 40px 80px rgba(0, 0, 0, 0.205);
+      display: inline-block;
+      opacity: 0.9;
+    }
+    .red1 {
+      width: 720px;
+      height: 720px;
+      border: 2px solid rgb(250, 250, 250);
+      background-image: url(images/Heron-Tower-London-900x556.webp);
+      background-size: 300px;
+      background-position: top;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 4900px;
+      left: 380px;
+      z-index: 2;
+      box-shadow: 0 40px 80px rgba(0, 0, 0, 0.205);
+      overflow: hidden;
+    }
 
-.booty2text{
- position: relative;
-top: 4780px;
-left: 1080px;
-font-size: 34px;    
-}
+    .redimg {
+      background-image: url(image/bwf.avif);
+      height: 180px;
+      width: 150px;
+      position: relative;
+      left: 540px;
+      bottom: 286px;
+    }
 
-.booty3text{
-height: 270px;
-width: 450px;
-top: 4400px;
-position: relative;
-left:1720px;
-font-size: 34px;
-}
-
-.livetext{
-    position: relative;
-    top: 4900px;
-left: 380px;
-font-size: 104px;    
-}
-
-.red{
-width: 280px;
-height: 420px;
-border: 2px solid rgb(255, 255, 255);
-background-image: url(images/Heron-Tower-London-900x556.webp);
-    background-size: 300px;
-    background-position:top;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 285px;
-    top: 150px;
-    z-index: 2;
-    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.205);
-    
-}
-.blue{
-    width: 280px;
-    height: 520px;
-    border: 2px solid rgba(255, 255, 255, 0.915);
-    left: 700px;
-    top: 100px;
-    position: absolute;
-    z-index: 1;
-    background-image: url(images/tower\ \(1\).jpeg);
-    background-size:  300px;
-    background-position: top;
-    background-repeat: no-repeat;
-    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.205);
-   
-}
-
-.green{
-    width: 280px;
-    height: 420px;
-    border: 2px solid rgba(248, 251, 244, 0.828);
-    background-image: url(images/asia.jpeg) ;
-    position: absolute;
-    background-size: 300px ;
-    background-position: top ;
-    background-repeat: no-repeat;
-    left: 1107px;
-    top: 150px;
-    z-index: 2;
-    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.205);
-    display: inline-block;
-    opacity: 0.9;
-
-}
-.red1{
-width: 720px;
-height: 720px;
-border: 2px solid rgb(250, 250, 250);
-background-image: url(images/Heron-Tower-London-900x556.webp);
-    background-size: 300px;
-    background-position:top;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 4900px;
-    left: 380px;
-    z-index: 2;
-    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.205);
-    overflow: hidden;
-}
-
-.redimg{
-    background-image: url(image/bwf.avif);
-    height: 180px;
-    width: 150px;
-    position: relative;
-    left: 540px;
-    bottom: 286px;
-}
-
-.redimg2{
-    background-image: url(image/red1.avif);
-    height: 270px;
-    width: 573px;
-    position: relative;
-    
-}
-.redimg2:hover{
-    transform: scale(1.2);
-}
-.blue3{
-    width: 620px;
-    height: 720px;
-    border: 2px solid rgba(255, 255, 255, 0.915);
-    top: 4900px;
-    left: 1200px;
-    position: absolute;
-    z-index: 1;
-    background-image: url(images/tower\ \(1\).jpeg);
-    background-size:  300px;
-    background-position: top;
-    background-repeat: no-repeat;
-    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.205);
-    overflow: hidden;
-}
-.blueimg{
-    background-image: url(image/bwf.avif);
-    height: 180px;
-    width: 150px;
-    position: relative;
-    left: 470px;
-    top: -38px;
-}
-.blueimg2{
-    background-image: url(image/blue2.avif);
-    height: 270px;
-    width: 470px;
-    position: relative;
-    
-}
-.blueimg2:hover{
-    transform: scale(1.2);
-}
-.green2{
-  
-    width: 620px;
-height: 720px;
-    border: 2px solid rgb(253, 253, 253);
-    background-image: url(images/asia.jpeg) ;
-    position: absolute;
-    background-size: 300px ;
-    background-position: top ;
-    background-repeat: no-repeat;
-    top: 4900px;
-    left: 1920px;
-    z-index: 2;
-    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.205);
-    display: inline-block;
-    opacity: 0.9;
-    overflow: hidden;
-
-}
-.greenimg{
-    background-image: url(image/isu.avif);
-    height: 150px;
-    width: 150px;
-    position: relative;
-    left: 435px;
-    top: -65px; 
-}
-.greenimg2{
-    background-image: url(image/green2.avif);
-    height: 270px;
-    width: 470px;
-    position: relative;
-    
-}
-.greenimg2:hover{
-    transform: scale(1.2);
-}
-/* .footer {
+    .redimg2 {
+      background-image: url(image/red1.avif);
+      height: 270px;
+      width: 573px;
+      position: relative;
+    }
+    .redimg2:hover {
+      transform: scale(1.2);
+    }
+    /* .blue3 {
+      width: 620px;
+      height: 720px;
+      border: 2px solid rgba(255, 255, 255, 0.915);
+      top: 4900px;
+      left: 1200px;
+      position: absolute;
+      z-index: 1;
+      background-image: url(images/tower\\(1\).jpeg);
+      background-size: 300px;
+      background-position: top;
+      background-repeat: no-repeat;
+      box-shadow: 0 40px 80px rgba(0, 0, 0, 0.205);
+      overflow: hidden;
+    } */
+    .blueimg {
+      background-image: url(image/bwf.avif);
+      height: 180px;
+      width: 150px;
+      position: relative;
+      left: 470px;
+      top: -38px;
+    }
+    .blueimg2 {
+      background-image: url(image/blue2.avif);
+      height: 270px;
+      width: 470px;
+      position: relative;
+    }
+    .blueimg2:hover {
+      transform: scale(1.2);
+    }
+    .green2 {
+      width: 620px;
+      height: 720px;
+      border: 2px solid rgb(253, 253, 253);
+      background-image: url(images/asia.jpeg);
+      position: absolute;
+      background-size: 300px;
+      background-position: top;
+      background-repeat: no-repeat;
+      top: 4900px;
+      left: 1920px;
+      z-index: 2;
+      box-shadow: 0 40px 80px rgba(0, 0, 0, 0.205);
+      display: inline-block;
+      opacity: 0.9;
+      overflow: hidden;
+    }
+    .greenimg {
+      background-image: url(image/isu.avif);
+      height: 150px;
+      width: 150px;
+      position: relative;
+      left: 435px;
+      top: -65px;
+    }
+    .greenimg2 {
+      background-image: url(image/green2.avif);
+      height: 270px;
+      width: 470px;
+      position: relative;
+    }
+    .greenimg2:hover {
+      transform: scale(1.2);
+    }
+    /* .footer {
    position: fixed;
    left: 0;
    bottom: 0;
@@ -363,134 +358,128 @@ height: 720px;
    color: white;
    text-align: center;
 } */
-.footer1 {
-   position:relative;
-   left: 0;
-   top: 14000px;
-   height: 600px;
-   width: 100%;
-   font-size: xx-large;
-   background-color: rgb(0, 0, 0);
-   color: white;
-   text-align: center;
-}
-.footer2{
-    position:relative;
-   left: 0;
-   top: 13700px;
+    .footer1 {
+      position: relative;
+      left: 0;
+      top: 14000px;
+      height: 600px;
+      width: 100%;
+      font-size: xx-large;
+      background-color: rgb(0, 0, 0);
+      color: white;
+      text-align: center;
+    }
+    .footer2 {
+      position: relative;
+      left: 0;
+      top: 13700px;
 
-   height: 150px;
-   width: 100%;
-   font-size: xx-large;
-   background-color: rgb(114, 100, 100);
-   color: white;
-   text-align: center;
-}
-.olmpicgamestext{
-    position: relative;
-    top: 9450px;
-    left: 370px;
-    font-size: 120px;
-}
-.olympicgameview{
-    position: relative;
-    top: 9100px;
-    left: 2370px;
-    font-size: 70px;  
-}
-div.scroll-container {
-    
-  background-color: #ffffff;
-  border: 3px solid rgb(255, 255, 255);
-  overflow: auto;
-  white-space: nowrap;
-  padding: 10px;
-  position: relative;
-  top: 9500px;
-  left: 500px;
-  height: 800px;
-  
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
-  max-width: 1900px;
-}
+      height: 150px;
+      width: 100%;
+      font-size: xx-large;
+      background-color: rgb(114, 100, 100);
+      color: white;
+      text-align: center;
+    }
+    .olmpicgamestext {
+      position: relative;
+      top: 9450px;
+      left: 370px;
+      font-size: 120px;
+    }
+    .olympicgameview {
+      position: relative;
+      top: 9100px;
+      left: 2370px;
+      font-size: 70px;
+    }
+    div.scroll-container {
+      background-color: #ffffff;
+      border: 3px solid rgb(255, 255, 255);
+      overflow: auto;
+      white-space: nowrap;
+      padding: 10px;
+      position: relative;
+      top: 9500px;
+      left: 500px;
+      height: 800px;
 
-div.scroll-container img {
-  padding: 10px;
-}
-.ring{
-    position: relative;
-    bottom: -39.5px;
-    height: 40px; /* Increased for visibility */
-    width: 37px;
-    border-radius: 55%; /* Set to 50% for a circular shape */
-    border: 4.5px solid white; /* Added border thickness */
-    margin-left: 780px; /* Spaced from the edges */
-}
-.ring {
-    position: relative;
-    bottom: 7px;
-    height: 40px; /* Increased for visibility */
-    width: 37px;
-    border-radius: 50%; /* Set to 50% for a circular shape */
-    border: 4.5px solid white; /* Added border thickness */
-    margin-left: 732px; /* Spaced from the edges */
-}
-.ring {
-    position: relative;
-    bottom: 57px;
-    height: 40px; /* Increased for visibility */
-    width: 37px;
-    border-radius: 50%; /* Set to 50% for a circular shape */
-    border: 4.5px solid white; /* Added border thickness */
-    margin-left: 828px; /* Spaced from the edges */
-    
-}
-.ring {
-    position: relative;
-    bottom: 82px;
-    height: 40px; /* Increased for visibility */
-    width: 38px;
-    border-radius: 50%; /* Set to 50% for a circular shape */
-    border: 4.5px solid white; /* Added border thickness */
-    margin-left: 755px; /* Spaced from the edges */
-}
-.ring {
-    position: relative;
-    bottom:   130.5px;
-    height: 40px; /* Increased for visibility */
-    width: 37px;
-    border-radius: 50%; /* Set to 50% for a circular shape */
-    border: 4.5px solid white; /* Added border thickness */
-    margin-left: 806px;/* Spaced from the edges */
-}
-.footerbottom{
-    margin-top: 10000px;
-}
-.sportsclass{
-   
-   
-    background-color: white;
-    overflow: hidden;
-    white-space: nowrap; 
-    /* animation: slideIn 0.5s ease-out forwards; */
-    transition: transform 0.5s ease;
-    border-radius: 5px ;
-    
-   
-    /* display: flex !important; */
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+      max-width: 1900px;
+    }
 
-}
-      
-.sportsclass:hover{
-    /* transform: scale(1.05); */
-    background-color: rgb(0, 0, 0);
-    color: #ffffff;
-    width: 20%;
-    overflow: hidden;
-}
+    div.scroll-container img {
+      padding: 10px;
+    }
+    .ring {
+      position: relative;
+      bottom: -39.5px;
+      height: 40px; /* Increased for visibility */
+      width: 37px;
+      border-radius: 55%; /* Set to 50% for a circular shape */
+      border: 4.5px solid white; /* Added border thickness */
+      margin-left: 780px; /* Spaced from the edges */
+    }
+    .ring {
+      position: relative;
+      bottom: 7px;
+      height: 40px; /* Increased for visibility */
+      width: 37px;
+      border-radius: 50%; /* Set to 50% for a circular shape */
+      border: 4.5px solid white; /* Added border thickness */
+      margin-left: 732px; /* Spaced from the edges */
+    }
+    .ring {
+      position: relative;
+      bottom: 57px;
+      height: 40px; /* Increased for visibility */
+      width: 37px;
+      border-radius: 50%; /* Set to 50% for a circular shape */
+      border: 4.5px solid white; /* Added border thickness */
+      margin-left: 828px; /* Spaced from the edges */
+    }
+    .ring {
+      position: relative;
+      bottom: 82px;
+      height: 40px; /* Increased for visibility */
+      width: 38px;
+      border-radius: 50%; /* Set to 50% for a circular shape */
+      border: 4.5px solid white; /* Added border thickness */
+      margin-left: 755px; /* Spaced from the edges */
+    }
+    .ring {
+      position: relative;
+      bottom: 130.5px;
+      height: 40px; /* Increased for visibility */
+      width: 37px;
+      border-radius: 50%; /* Set to 50% for a circular shape */
+      border: 4.5px solid white; /* Added border thickness */
+      margin-left: 806px; /* Spaced from the edges */
+    }
+    .footerbottom {
+      margin-top: 10000px;
+    }
+    .sportsclass {
+      background-color: white;
+      overflow: hidden;
+      white-space: nowrap;
+      /* animation: slideIn 0.5s ease-out forwards; */
+      transition: transform 0.5s ease;
+      border-radius: 5px;
 
-  /* Keyframes for Horizontal Slide
+      /* display: flex !important; */
+    }
+
+    .sportsclass:hover {
+      /* transform: scale(1.05); */
+      background-color: rgb(0, 0, 0);
+      color: #ffffff;
+      width: 20%;
+      overflow: hidden;
+    }
+
+    /* Keyframes for Horizontal Slide
   @keyframes slideIn {
     from {
       transform: translateX(-100%); /* Start off-screen */
@@ -498,435 +487,1041 @@ div.scroll-container img {
     to {
       transform: translateX(0); /* End at center */
     /* }
-  } */ */ */
-
-</style>
-<body>
-   <div style="position: absolute; ">
-    <div style="position: relative ; right: 200px; background-color: red;height: 700px; width: 5500px; box-shadow:0 40px 80px rgba(0, 0, 0, 0.205) ;">
+  } */
+  </style>
+  <body>
+    <div style="position: absolute">
+      <div
+        style="
+          position: relative;
+          right: 200px;
+          background-color: red;
+          height: 700px;
+          width: 5500px;
+          box-shadow: 0 40px 80px rgba(0, 0, 0, 0.205);
+        "
+      >
         <h1 class="text"><b>SPORTS</b></h1>
-    <h1 class="text2">Filter BY:</h1>
-      
-        <div class="dropdown" style="position: relative; top: 170px;">
-            <button class="dropbtn" style="position: relative; height: 70px; width: 450px; left:600px;font-size: 20px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; opacity: 0.9;">ALL  OLYMPIC  GAMES</button>
-            <div class="dropdown-content" style="position: relative; left: 300px; font-size: larger;">
-              <a href="#">All Olympics Games</a>
-              <a href="#">Olympics Games</a>
-              <a href="#">Olympic Winter Games</a>
-              <a href="#">Summer Youth Olympic Games</a>
-              <a href="#">Winter Youth Olympic Games</a>
-            </div>
+        <h1 class="text2">Filter BY:</h1>
+
+        <div class="dropdown" style="position: relative; top: 170px">
+          <button
+            class="dropbtn"
+            style="
+              position: relative;
+              height: 70px;
+              width: 450px;
+              left: 600px;
+              font-size: 20px;
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+              opacity: 0.9;
+            "
+          >
+            ALL OLYMPIC GAMES
+          </button>
+          <div
+            class="dropdown-content"
+            style="position: relative; left: 300px; font-size: larger"
+          >
+            <a href="#">All Olympics Games</a>
+            <a href="#">Olympics Games</a>
+            <a href="#">Olympic Winter Games</a>
+            <a href="#">Summer Youth Olympic Games</a>
+            <a href="#">Winter Youth Olympic Games</a>
           </div>
-          <div class="dropdown" style="position: relative; top: 170px;">
-            <button class="dropbtn" style="position: relative; height: 70px; width: 450px; left: 770px; font-size: 20px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">ALL  OLYMPIC  EDITION</button>
-            <div class="dropdown-content" style="position: relative; left: 300px; font-size: larger;">
-              <a href="#">All Olympics Edition</a>
-              <a href="#">Salt Lake City-Utha 2034</a>
-              <a href="#">Brisbane 2032</a>
-              <a href="#">French Alps 2023</a>
-              <a href="#">LA 2028</a>
-              <a href="#">Dakar 2026</a>
-              <a href="#">Milano Cortina 2026</a>
-              <a href="#">Paris 2024</a>
-              <a href="#">Gangwon 2024</a>
-              <a href="#">Beijing 2022</a>
-              <a href="#">Tokyo 2020</a>
-              <a href="#">Lausanne 2020</a>
-              <a href="#">Buenous Aires 2018</a>
-              <a href="#">PyeonChang 2018</a>
-              <a href="#">Rio 2016</a>
-              <a href="#">Lillehammer 2016</a>
-              <a href="#">Sochi 2014</a>
-              <a href="#">Nanjing 2014</a>
-              <a href="#">London 2012</a>
-              <a href="#">Innsbruck 2012</a>
-              <a href="#">Singapore 2010</a>
-              <a href="#">Vancouver 2010</a>
-              <a href="#">Beijing 2008</a>
-              <a href="#">Turin 2006</a>
-              <a href="#">Athens 2004</a>
-              <a href="#">Salt Lake City 2002</a>
-              <a href="#">Sydeny 2000</a>
-              <a href="#">Nagano 1998</a>
-              <a href="#">Atlanta 1996 </a>
-              <a href="#">Lillhammer 2004</a>
-              <a href="#">Albertville 1992</a>
-              <a href="#">Barcelona 1992</a>
-              <a href="#">Calgary 1988</a>
-              <a href="#">Seoul 1988</a>
-              <a href="#">Sarajevo 1984</a>
-              <a href="#">Lake Placid 1980</a>
-              <a href="#">Moscow 1980</a>
-              <a href="#">Innsbruck 1976</a>
-              <a href="#">Montreal 1976</a>
-              <a href="#">Sappora 1972</a>
-              <a href="#">Munich 1972</a>
-              <a href="#">Grenoble 1986</a>
-              <a href="#">Mexico City 1986</a>
-              <a href="#">Innsbruck 1964</a>
-              <a href="#">Tokyo 1964</a>
-              <a href="#">Squaw Valley 1960</a>
-              <a href="#">Rome 1960</a>
-              <a href="#">Cortina d'Amperzzo 1956</a>
-              <a href="#">Oslo 1956</a>
-              <a href="#">Helsinki 1952</a>
-              <a href="#">St.Moritz 1948</a>
-              <a href="#">London 1948</a>
-              <a href="#">Garmish-Patrenkirchen 1936</a>
-              <a href="#">Berlin 1936</a>
-              <a href="#">Lake Placid 1932</a>
-              <a href="#">Los Angeles 1932</a>
-              <a href="#">St.Mortiz 1928</a>
-              <a href="#">Chamonix 1924</a>
-              <a href="#">Paris 1924</a>
-              <a href="#">Antwerp 1920</a>
-              <a href="#">Stockholm 1912</a>
-              <a href="#">London 1908</a>
-              <a href="#">St.Louis 1904</a>
-              <a href="#">Paris 1900</a>
-              <a href="#">Athens 1896</a>
-              
-              
-            </div>
+        </div>
+        <div class="dropdown" style="position: relative; top: 170px">
+          <button
+            class="dropbtn"
+            style="
+              position: relative;
+              height: 70px;
+              width: 450px;
+              left: 770px;
+              font-size: 20px;
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            "
+          >
+            ALL OLYMPIC EDITION
+          </button>
+          <div
+            class="dropdown-content"
+            style="position: relative; left: 300px; font-size: larger"
+          >
+            <a href="#">All Olympics Edition</a>
+            <a href="#">Salt Lake City-Utha 2034</a>
+            <a href="#">Brisbane 2032</a>
+            <a href="#">French Alps 2023</a>
+            <a href="#">LA 2028</a>
+            <a href="#">Dakar 2026</a>
+            <a href="#">Milano Cortina 2026</a>
+            <a href="#">Paris 2024</a>
+            <a href="#">Gangwon 2024</a>
+            <a href="#">Beijing 2022</a>
+            <a href="#">Tokyo 2020</a>
+            <a href="#">Lausanne 2020</a>
+            <a href="#">Buenous Aires 2018</a>
+            <a href="#">PyeonChang 2018</a>
+            <a href="#">Rio 2016</a>
+            <a href="#">Lillehammer 2016</a>
+            <a href="#">Sochi 2014</a>
+            <a href="#">Nanjing 2014</a>
+            <a href="#">London 2012</a>
+            <a href="#">Innsbruck 2012</a>
+            <a href="#">Singapore 2010</a>
+            <a href="#">Vancouver 2010</a>
+            <a href="#">Beijing 2008</a>
+            <a href="#">Turin 2006</a>
+            <a href="#">Athens 2004</a>
+            <a href="#">Salt Lake City 2002</a>
+            <a href="#">Sydeny 2000</a>
+            <a href="#">Nagano 1998</a>
+            <a href="#">Atlanta 1996 </a>
+            <a href="#">Lillhammer 2004</a>
+            <a href="#">Albertville 1992</a>
+            <a href="#">Barcelona 1992</a>
+            <a href="#">Calgary 1988</a>
+            <a href="#">Seoul 1988</a>
+            <a href="#">Sarajevo 1984</a>
+            <a href="#">Lake Placid 1980</a>
+            <a href="#">Moscow 1980</a>
+            <a href="#">Innsbruck 1976</a>
+            <a href="#">Montreal 1976</a>
+            <a href="#">Sappora 1972</a>
+            <a href="#">Munich 1972</a>
+            <a href="#">Grenoble 1986</a>
+            <a href="#">Mexico City 1986</a>
+            <a href="#">Innsbruck 1964</a>
+            <a href="#">Tokyo 1964</a>
+            <a href="#">Squaw Valley 1960</a>
+            <a href="#">Rome 1960</a>
+            <a href="#">Cortina d'Amperzzo 1956</a>
+            <a href="#">Oslo 1956</a>
+            <a href="#">Helsinki 1952</a>
+            <a href="#">St.Moritz 1948</a>
+            <a href="#">London 1948</a>
+            <a href="#">Garmish-Patrenkirchen 1936</a>
+            <a href="#">Berlin 1936</a>
+            <a href="#">Lake Placid 1932</a>
+            <a href="#">Los Angeles 1932</a>
+            <a href="#">St.Mortiz 1928</a>
+            <a href="#">Chamonix 1924</a>
+            <a href="#">Paris 1924</a>
+            <a href="#">Antwerp 1920</a>
+            <a href="#">Stockholm 1912</a>
+            <a href="#">London 1908</a>
+            <a href="#">St.Louis 1904</a>
+            <a href="#">Paris 1900</a>
+            <a href="#">Athens 1896</a>
           </div>
+        </div>
+      </div>
     </div>
-    <!-- <section style="position: absolute; top: 700px; left: 300px;"> -->
-        <div style="position: relative; top: 45px;">
-            <h1 style=" position: relative;top: 200px;font-size: 150px; left: 120px;">A <br></h1>
-            <h1 style=" position: relative;top: 200px; left: 120px;">
-             <div class="sportsclass" style="text-overflow:clip;   "
-             onmouseover="this.style.transform='translateX(20px)'"
-             onmouseout="this.style.transform='translateX(0)'">  Acrobatic Symmetric <br></div>
-                   
-             <div class="sportsclass" style="text-overflow:clip;   "
-             onmouseover="this.style.transform='translateX(20px)'"
-             onmouseout="this.style.transform='translateX(0)'">  Acrobatic Symmetric <br></div>
-    
-                     
-             <div class="sportsclass" style="text-overflow:clip;   "
-             onmouseover="this.style.transform='translateX(20px)'"
-             onmouseout="this.style.transform='translateX(0)'"> Alpine Skiing</div> 
-    
-                <div class="sportsclass" style="text-overflow:clip;   "
-             onmouseover="this.style.transform='translateX(20px)'"
-             onmouseout="this.style.transform='translateX(0)'">  Archery <br></div>
-    
-               <div class="sportsclass" style="text-overflow:clip;   "
-             onmouseover="this.style.transform='translateX(20px)'"
-             onmouseout="this.style.transform='translateX(0)'"> Artistic Gymmnastic <br></div>
-    
-                
-               <div class="sportsclass" style="text-overflow:clip;   "
-             onmouseover="this.style.transform='translateX(20px)'"
-             onmouseout="this.style.transform='translateX(0)'"> Artistic Swimming <br></div>
-    
-                <div class="sportsclass" style="text-overflow:clip;   "
-             onmouseover="this.style.transform='translateX(20px)'"
-             onmouseout="this.style.transform='translateX(0)'">Althlestic </div>
-             </div>
-            
-             <div class="sportsclass" style="text-overflow:clip;   "
-             onmouseover="this.style.transform='translateX(20px)'"
-             onmouseout="this.style.transform='translateX(0)'"> </div>
-
+    <section style="position: absolute; top: 700px; left: 300px">
+      <div style="position: relative; top: 45px">
+        <h1
+          style="position: relative; top: 200px; font-size: 150px; left: 120px"
+        >
+          A <br />
         </h1>
-        <h1 style=" position: relative;bottom: 290px;font-size: 150px; left: 770px;" >B</h1>
-        <h1 style="position: relative;bottom: 290px; left: 770px;">
-
-            <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)'">Badminton <br> </div> 
-            
-            <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)'">   Baseball 5 <br></div> 
-
-         <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)'">  Baseball Softball <br></div> 
-            
-     
-            <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)'">      Basktball <br> </div>
-
-        
-         <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)'">   Basktball 3x3 <br></div>
-
-       
-         <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)'">     Beach Handball <br></div>
-
-        
-         <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)'">   Beach Vollyball <br> </div>
-
-        
-         <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)'">   Biathlon <br></div>
-
-          
-         <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)'"> Bobsleigh <br></div>
-
-           
-         <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)'"> Boxing <br></div>
-
-            
-         <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)'"> Breaking </div>
-        </h1>
-        <h1 style=" position: relative;bottom: 1020px;font-size: 150px; left: 1370px;" >C</h1>
-        <h1 style=" position: relative;bottom: 1020px; left: 1370px;">
-            
-         <div class="sportsclass" style="text-overflow:clip;   "
-         onmouseover="this.style.transform='translateX(20px)'"
-         onmouseout="this.style.transform='translateX(0)'"> 
-            Canone Slalom <br></div>
-            
-         <div class="sportsclass" style="text-overflow:clip;   "
-         onmouseover="this.style.transform='translateX(20px)'"
-         onmouseout="this.style.transform='translateX(0)'">  Canoe Sprint <br></div>
-         
-         <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)'">  Coastal Rowing <br></div>
-            
-         <div class="sportsclass" style="text-overflow:clip;   "
-         onmouseover="this.style.transform='translateX(20px)'"
-         onmouseout="this.style.transform='translateX(0)'">  Cricket <br></div>
-         
-         <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)'">  Cross-Country Skiing <br></div>
-            
-         <div class="sportsclass" style="text-overflow:clip;   "
-         onmouseover="this.style.transform='translateX(20px)'"
-         onmouseout="this.style.transform='translateX(0)'">  Curling <br></div>
-         
-         <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)'">  Cycling BMX Freestyle <br></div>
-            
-         <div class="sportsclass" style="text-overflow:clip;   "
-         onmouseover="this.style.transform='translateX(20px)'"
-         onmouseout="this.style.transform='translateX(0)'">  Cycling BMX Racing <br></div>
-         
-         <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)'">  Cycling Mountain Bike <br> </div>
-            
-         <div class="sportsclass" style="text-overflow:clip;   "
-         onmouseover="this.style.transform='translateX(20px)'"
-         onmouseout="this.style.transform='translateX(0)'">  Cycling Road <br></div>
-         
-         <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)'">  Cycling Track </div> 
-        </h1>
-        <div style="position: relative; top: 30px;">
-            <h1 style=" position: relative;bottom: 920px;font-size: 150px; left: 130px; top: -1020px;" >D</h1>
-        <h1 style=" position: relative;bottom: 920px;left: 130px; top: -1092px;"> <br>
-
-           
-         <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)' " >   D i v i n g </div>
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Acrobatic Symmetric <br />
         </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Acrobatic Symmetric <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Alpine Skiing
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Archery <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Artistic Gymmnastic <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Artistic Swimming <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Althlestic
+        </div>
+      </div>
+
+      <h1
+        style="position: relative; bottom: 290px; font-size: 150px; left: 770px"
+      >
+        B
+      </h1>
+
+      <div style="position: relative; top: 45px">
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Badminton <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Baseball 5 <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Baseball Softball <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Basktball <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Basktball 3x3 <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Beach Handball <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Beach Vollyball <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Biathlon <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Bobsleigh <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Boxing <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Breaking
+        </div>
+      </div>
+
+      <h1
+        style="
+          position: relative;
+          bottom: 1020px;
+          font-size: 150px;
+          left: 1370px;
+        "
+      >
+        C
+      </h1>
+      <div style="position: relative; top: 45px">
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Canone Slalom <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Canoe Sprint <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Coastal Rowing <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Cricket <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Cross-Country Skiing <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Curling <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Cycling BMX Freestyle <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Cycling BMX Racing <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Cycling Mountain Bike <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Cycling Road <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"
+        >
+          Cycling Track
+        </div>
+        <h1
+          style="
+            position: relative;
+            bottom: 920px;
+            font-size: 150px;
+            left: 130px;
+            top: -1020px;
+          "
+        >
+          D
         </h1>
 
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)' "
+        >
+          D i v i n g
+        </div>
         <div>
-            <h1 style=" position: relative;bottom: 1600px;font-size: 150px; left: 770px;  top: -1300px;" >E</h1>
-        
-        <h1 style=" position: relative;bottom: 1357px;left: 770px;"> <br>
-             
-         <div class="sportsclass" style="text-overflow:clip;   "
-         onmouseover="this.style.transform='translateX(20px)'"
-         onmouseout="this.style.transform='translateX(0)' " >  Equestrain </div>
+          <h1
+            style="
+              position: relative;
+              bottom: 1600px;
+              font-size: 150px;
+              left: 770px;
+              top: -1300px;
+            "
+          >
+            E
+          </h1>
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)' "
+        >
+          Equestrain
+        </div>
+      </div>
+
+      <div style="position: relative; top: 1680px; left: 670px">
+        <h1
+          style="
+            position: relative;
+            bottom: 1570px;
+            font-size: 150px;
+            left: 1370px;
+          "
+        >
+          F
         </h1>
+
+        <div
+          class="sportsclass"
+          style="width: 10%; text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)' "
+        >
+          Fencing
         </div>
-        <div style="position: relative; top: 1680px; left: 670px;">
-            <h1 style=" position: relative;bottom: 1570px;font-size: 150px; left: 1370px;" >F</h1>
-        <h1 style=" position: relative;bottom: 1520px;left: 1370px;" >
 
-                 
-         <div class="sportsclass" style=" width: 10%; text-overflow:clip;   "
-         onmouseover="this.style.transform='translateX(20px)'"
-         onmouseout="this.style.transform='translateX(0)' " >Fencing </div>
-
-                
-         <div class="sportsclass" style="text-overflow:clip;   "
-         onmouseover="this.style.transform='translateX(20px)'"
-         onmouseout="this.style.transform='translateX(0)' " > Figure Skating </div>
-
-             
-         <div class="sportsclass" style="text-overflow:clip;   "
-         onmouseover="this.style.transform='translateX(20px)'"
-         onmouseout="this.style.transform='translateX(0)' " >    Flag Football <br> </div>
-
-                
-         <div class="sportsclass" style="text-overflow:clip;   "
-         onmouseover="this.style.transform='translateX(20px)'"
-         onmouseout="this.style.transform='translateX(0)' " >  Football <br> </div>
-
-                 
-         <div class="sportsclass" style="text-overflow:clip;   "
-         onmouseover="this.style.transform='translateX(20px)'"
-         onmouseout="this.style.transform='translateX(0)' " > Freestyle Skiing </div>
-                
-         <div class="sportsclass" style="text-overflow:clip;   "
-         onmouseover="this.style.transform='translateX(20px)'"
-         onmouseout="this.style.transform='translateX(0)' " >   Futsal </div>
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)' "
+        >
+          Figure Skating
         </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)' "
+        >
+          Flag Football <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)' "
+        >
+          Football <br />
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)' "
+        >
+          Freestyle Skiing
+        </div>
+
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)' "
+        >
+          Futsal
+        </div>
+      </div>
+      <div style="position: relative; bottom: 530px; left: 1280px">
+        <h1
+          style="
+            position: relative;
+            bottom: 1560px;
+            font-size: 150px;
+            left: 120px;
+          "
+        >
+          G
         </h1>
-        <div style="position: relative; bottom: 530px; left: 1280px;">
-            <h1 style="position: relative; bottom: 1560px; font-size: 150px; left:120px; ">G</h1>
-        <h1  style="position: relative; bottom: 1557px;  left:120px;">
-            <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)' " >  G o l f  
-            </div>   </h1> 
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)' "
+        >
+          G o l f
         </div>
-    
-        <div style="position: relative; bottom: 500px; left: 1350px;">
-            <h1 style="position: relative; bottom: 1850px; font-size: 150px; left:750px;">H</h1>
-        <h1  style="position: relative; bottom: 1850px;  left:750px;">
-            <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)' " > Handball <br></div>
-            <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)' " >  Hockey </div></h1>
+      </div>
+
+      <div style="position: relative; bottom: 500px; left: 1350px">
+        <h1
+          style="
+            position: relative;
+            bottom: 1850px;
+            font-size: 150px;
+            left: 750px;
+          "
+        >
+          H
+        </h1>
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)' "
+        >
+          Handball <br />
         </div>
-      
-        <div style="position: relative;  bottom: 300px; right: 1206px;">
-            <h1 style="position: relative; bottom: 2000px; font-size: 150px; left:1350px;">I</h1>
-        <h1 style="position: relative; bottom: 1990px;  left:1350px;">
-            <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)' " >  Ice Hockey </div></h1>
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)' "
+        >
+          Hockey
         </div>
-       
-        <div style="position: relative; left: 650px; bottom: 560px;">   
-            <h1 style="position: relative; bottom: 2000px; font-size: 150px; left:120px;">J</h1>
-            <h1 style="position: relative; bottom: 2000px; left:120px;">
-                <div class="sportsclass" style="text-overflow:clip;   "
-                onmouseover="this.style.transform='translateX(20px)'"
-                onmouseout="this.style.transform='translateX(0)' " >  Judo  </div> </h1>
+      </div>
+
+      <div style="position: relative; bottom: 300px; right: 1206px">
+        <h1
+          style="
+            position: relative;
+            bottom: 2000px;
+            font-size: 150px;
+            left: 1350px;
+          "
+        >
+          I
+        </h1>
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)' "
+        >
+          Ice Hockey
         </div>
+      </div>
 
-
-
-       
-        <div>
-            <h1 style="position: relative; bottom: 2250px; font-size: 150px; left:720px;">K</h1>
-            <h1 style="position: relative; bottom: 2250px;  left:720px;">
-                
-                <div class="sportsclass" style="text-overflow:clip;   "
-                onmouseover="this.style.transform='translateX(20px)'"
-                onmouseout="this.style.transform='translateX(0)' " >   Karate  </div> </h1>
-
-
+      <div style="position: relative; left: 650px; bottom: 560px">
+        <h1
+          style="
+            position: relative;
+            bottom: 2000px;
+            font-size: 150px;
+            left: 120px;
+          "
+        >
+          J
+        </h1>
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)' "
+        >
+          Judo
         </div>
-        <div>
-            <h1 style="position: relative; bottom: 2450px; font-size: 150px; left:1350px;">L</h1>
-        <h1 style="position: relative; bottom: 2450px; left:1350px;">
-            
-            <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)' " >   Larcouse <br></div>
-            <div class="sportsclass" style="text-overflow:clip;   "
-            onmouseover="this.style.transform='translateX(20px)'"
-            onmouseout="this.style.transform='translateX(0)' " >   Luge </div></h1>
+      </div>
+
+      <div>
+        <h1
+          style="
+            position: relative;
+            bottom: 2250px;
+            font-size: 150px;
+            left: 720px;
+          "
+        >
+          K
+        </h1>
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)' "
+        >
+          Karate
         </div>
+      </div>
+      <div>
+        <h1
+          style="
+            position: relative;
+            bottom: 2450px;
+            font-size: 150px;
+            left: 1350px;
+          "
+        >
+          L
+        </h1>
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)' "
+        >
+          Larcouse <br />
+        </div>
+        <div
+          class="sportsclass"
+          style="text-overflow: clip"
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)' "
+        >
+          Luge
+        </div>
+      </div>
 
+      <h1
+        style="
+          position: relative;
+          bottom: 2450px;
+          font-size: 150px;
+          left: 130px;
+        "
+      >
+        M
+      </h1>
+      <h1 style="position: relative; bottom: 2450px; left: 130px">
+        Marathon Swimming<br />Modern Penetathlon
+      </h1>
+      <h1
+        style="
+          position: relative;
+          bottom: 2750px;
+          font-size: 150px;
+          left: 700px;
+        "
+      >
+        N
+      </h1>
+      <h1 style="position: relative; bottom: 2750px; left: 700px">
+        Nordic Combined
+      </h1>
+      <h1
+        style="
+          position: relative;
+          bottom: 3000px;
+          font-size: 150px;
+          left: 1320px;
+        "
+      >
+        R
+      </h1>
+      >
+      <h1 style="position: relative; bottom: 3000px; left: 1320px">
+        Rythmatic Gymnastic <br />
+        Roller Speed Skating <br />
+        Rowing <br />
+        Rugby Sevens
+      </h1>
+      <h1
+        style="
+          position: relative;
+          bottom: 3000px;
+          font-size: 150px;
+          left: 130px;
+        "
+      >
+        S
+      </h1>
+      <h1 style="position: relative; bottom: 3000px; left: 130px">
+        Sailing <br />Shooting <br />
+        Short Track Speed Skating <br />
+        Skateboarding <br />
+        Skeleton <br />
+        Ski Jumping <br />
+        Ski Mountaineering <br />
+        Snowboard <br />
+        Speed Skating <br />
+        Sport Climbing <br />
+        Squash <br />
+        Surfing <br />
+        Swimming
+      </h1>
+      <h1
+        style="
+          position: relative;
+          bottom: 3820px;
+          font-size: 150px;
+          left: 730px;
+        "
+      >
+        T
+      </h1>
+      <h1 style="position: relative; bottom: 3820px; left: 730px">
+        Table Tennis <br />
+        Taekwondo <br />
+        Tennis <br />
+        Trampoline <br />
+        Triathlon
+      </h1>
+      <h1
+        style="
+          position: relative;
+          bottom: 4220px;
+          font-size: 150px;
+          left: 1330px;
+        "
+      >
+        V
+      </h1>
+      <h1 style="position: relative; bottom: 4220px; left: 1330px">
+        Vollyball
+      </h1>
+      <h1
+        style="
+          position: relative;
+          bottom: 3600px;
+          font-size: 150px;
+          left: 130px;
+        "
+      >
+        W
+      </h1>
+      <h1 style="position: relative; bottom: 3600px; left: 130px">
+        Water Polo <br />
+        Weightlifting <br />
+        Wrestling <br />
+        Wushu
+      </h1>
+    </section>
 
-        <h1 style="position: relative; bottom: 2450px; font-size: 150px; left:130px;">M</h1>
-        <h1 style="position: relative; bottom: 2450px; left:130px;">Marathon Swimming<br>Modern Penetathlon</h1>
-         <h1 style="position: relative; bottom: 2750px; font-size: 150px; left:700px;">N</h1>
-         <h1 style="position: relative; bottom: 2750px; left:700px;">Nordic Combined</h1>
-         <h1 style="position: relative; bottom: 3000px;font-size: 150px; left: 1320px;">R</h1>>
-    <h1 style="position: relative; bottom: 3000px; left: 1320px;"> Rythmatic Gymnastic <br> Roller Speed Skating <br> Rowing <br> Rugby Sevens</h1>
-    <h1 style="position: relative; bottom: 3000px; font-size:150px;left: 130px;">S</h1>
-    <h1 style="position: relative; bottom: 3000px; left: 130px;">Sailing <br>Shooting <br> Short Track Speed Skating <br> Skateboarding <br> Skeleton <br> Ski Jumping <br> Ski Mountaineering <br> Snowboard <br> Speed Skating <br> Sport Climbing <br> Squash <br> Surfing <br> Swimming </h1>
-    <h1 style="position: relative; bottom: 3820px; font-size:150px; left:730px;">T</h1>
-    <h1 style="position: relative; bottom: 3820px; left:730px;">Table Tennis <br> Taekwondo <br> Tennis <br> Trampoline <br> Triathlon</h1>
-    <h1 style="position: relative; bottom: 4220px; font-size:150px; left:1330px;">V</h1>
-    <h1 style="position: relative; bottom: 4220px; left:1330px;">Vollyball</h1>
-    <h1 style="position: relative; bottom: 3600px; font-size: 150px; left: 130px;">W</h1>
-    <h1 style="position: relative; bottom: 3600px;  left: 130px;">Water Polo <br> Weightlifting <br> Wrestling <br> Wushu</h1>
-    <h1 style="color: rgba(185, 185, 185, 0.37); position: relative; top: -3200px; left: 140px;">_____________________________________________________________________________________________</h1>
+    <h1
+      style="
+        color: rgba(185, 185, 185, 0.37);
+        position: relative;
+        top: -3200px;
+        left: 140px;
+      "
+    >
+      _____________________________________________________________________________________________
+    </h1>
     <section class="webimage"></section>
-  <div style="position: relative; top: 400px;">
-    <div ><h1 class="webtext"><b style="color: black;">Paralympic <br style="color: black;">Games</b></h1>  <h1 class="webtext2">The Paralympic Games provide a platform for <br>Para athletes with a diverse range of impairments to showcase their <br>outstanding abilities to millions of spectators and billions of TV viewers.</h1></div>
-    <div class="webbox" style="color: rgb(255, 255, 255);"> <a href="https://www.paralympic.org/" style="color: rgb(255, 255, 255); font-size: 24px; position: relative; left:60px; top: 15px;">  Learn more at Paraolympic.org </a>
-           </div>
-  </div>
-           
-    </section >
-<div style="position: relative; bottom: 8700px;">
-    <section>
-        <h1 class="newstext">Sports Latest  News</h1>
-        <div class="newsimg"></div>
-         <div> <h1 class="worldtext"><a href="https://olympics.com/en/news/athletics-armand-mondo-duplantis-hengelo-pole-vault-2022" style="color: black;"> Duplantis wins Hengelo pole vault with <br> new 2022 world lead clearance</a></h1>  
-         </div>
-         <div class="india"> </div>
-         <div class="indiatext"><a href="https://olympics.com/en/news/balkan-relay-cup-2022-indian-athletes-results" style="color: black;">Balkan Relay Cup: Indian women's 4x100m <br> team wins gold; men’s 4x400m team bags silver</a></div>
-    </section>
-    <section style="position: relative; top: 40px;">
-       <div class="booty1"></div><div class="booty1text"><a href="https://olympics.com/en/news/indonesia-masters-2022-badminton-india-live-streaming-telecast-tv-channel" style="color: black;">Indonesia Masters badminton <br> 2022: India’s PV Sindhu, Lakshya <br>Sen among top contenders -<br> watch live streaming</a></div>
-       <div class="booty2"></div><div class="booty2text"> <a href="https://olympics.com/en/news/sydney-added-world-marathon-major-starting-2025" style="color: black;">Sydney added as World <br> Marathon Major starting in 2025</a></div>
-       <div class="booty3"> </div> <div class="booty3text"> <a href="https://olympics.com/en/news/nyc-marathon-2024-chepkirui-nageeye-pro-victories" style="color: black;">Abdi Nageeye, Sheila Chepkirui <br> use closing kicks to claim New <br> York City Marathon wins</a></div>
-    </section>
-    </center>
-    <section>
-        <h1 class="livetext" style="color: black;">Live events</h1> 
-       <div style="position: relative; bottom: 3350px;">
-        <div class="red"></div>
-        <div class="green"></div>
-        <div class="blue"> </div>
-       </div>
-     <section style="position:relative ; top: 80px;">  
-        <div class="red1"><div class="redimg2"></div><h style="font-size: x-large; position: relative; top:50px; left: 30px;"  >Badminton <br><h1> <br>29 Oct - 03 Nov <br> Badmintion| Hlyo Open |<br> Saarbrucken
+    <div style="position: relative; top: 400px">
+      <div>
+        <h1 class="webtext">
+          <b style="color: black">Paralympic <br />Games</b>
         </h1>
-            <div class="redimg"></div> <h></div>
-        <div class="green2" ><div class="greenimg2"></div><h style="font-size: x-large; position: relative; top:50px; left: 30px;">Figure Skating <div class="greenimg"></div></h> <div style="position: relative; left: 25px; bottom: 120px;"><h1><br>01 - 03 Nov <br> Figure Skat| Grand Prix |<br> de France| Angers
-        </h1></div></h1></div>
-       <div class="blue3"><div class="blueimg2"></div> <h style="font-size: x-large; position: relative; top:50px; left: 30px;">Badminton </h><div class="blueimg"></div> <div style="position: relative; left: 25px; bottom: 140px;"><h1><br>05 - 10 Nov <br> Badmintion| Korea Master |<br> Iksan City</h1></div></section>
-    </section>
-   </div>
-   <section >
-   </section>
-    <h1 class="olmpicgamestext" style="color: black;">
-        Olympics Games
-    </h1>
-    <h1 class="olympicgameview" style="color: black;">
-        <a href="https://olympics.com/en/olympic-games " style="color: black;">View all -></a>
-    </h1>
-    
-        <div class="scroll-container">
-            <a href="https://olympics.com/fr/paris-2024/"><img src="image/gpo3co3bpkqsikyznrns.png" alt=" Paris 2024" style="position: relative; right:500; height: 450px; width: 400px;" ></a>
-            <a href="https://olympics.com/en/olympic-games/gangwon-2024"><img src="image/gang.avif" alt="Forest" style="position: relative; left: 350px; height: 450px; width: 400px;"></a>
-            <a href="https://milanocortina2026.olympics.com/it"><img src="image/milno.avif" alt="Northern Lights" style="position: relative; left:650px ; height: 450px; width: 400px;"></a>
-           <a href="https://la28.org/?utm_source=web&utm_medium=Organic&utm_campaign=24GenEngagement&utm_term=&utm_content=iocfanfacingpage"> <img src="image/LA.avif" alt="Mountains" style="position: relative; left:750px ; height: 450px; width: 400px;"></a>
-           <a href="https://olympics.com/en/sports/"> <img src="image/french.avif" alt="Mountains" style="position: relative; left: 850px; height: 500px; width: 450px;"></a>
-<a href="https://olympics.com/en/brisbane-2032"> <img src="image/brisbane.avif" alt="Mountains" style="position: relative; left: 1000px; height: 550px; width: 450px;"></a>
-            <a href="https://olympics.com/en/sports/"><img src="image/salt.avif" alt="Mountains" style="position: relative; left:1050px;  height: 500px; width: 400px;"></a>
-          </div>
+        <h1 class="webtext2">
+          The Paralympic Games provide a platform for <br />Para athletes with a
+          diverse range of impairments to showcase their <br />outstanding
+          abilities to millions of spectators and billions of TV viewers.
+        </h1>
+      </div>
+      <div class="webbox" style="color: rgb(255, 255, 255)">
+        <a
+          href="https://www.paralympic.org/"
+          style="
+            color: rgb(255, 255, 255);
+            font-size: 24px;
+            position: relative;
+            left: 60px;
+            top: 15px;
+          "
+        >
+          Learn more at Paraolympic.org
+        </a>
+      </div>
+    </div>
 
-    
-   </section>
-    
-   <!-- <section class="footerbottom">
+    <div style="position: relative; bottom: 8700px">
+      <section>
+        <h1 class="newstext">Sports Latest News</h1>
+        <div class="newsimg"></div>
+        <div>
+          <h1 class="worldtext">
+            <a
+              href="https://olympics.com/en/news/athletics-armand-mondo-duplantis-hengelo-pole-vault-2022"
+              style="color: black"
+            >
+              Duplantis wins Hengelo pole vault with <br />
+              new 2022 world lead clearance</a
+            >
+          </h1>
+        </div>
+        <div class="india"></div>
+        <div class="indiatext">
+          <a
+            href="https://olympics.com/en/news/balkan-relay-cup-2022-indian-athletes-results"
+            style="color: black"
+            >Balkan Relay Cup: Indian women's 4x100m <br />
+            team wins gold; men’s 4x400m team bags silver</a
+          >
+        </div>
+      </section>
+      <section style="position: relative; top: 40px">
+        <div class="booty1"></div>
+        <div class="booty1text">
+          <a
+            href="https://olympics.com/en/news/indonesia-masters-2022-badminton-india-live-streaming-telecast-tv-channel"
+            style="color: black"
+            >Indonesia Masters badminton <br />
+            2022: India’s PV Sindhu, Lakshya <br />Sen among top contenders -<br />
+            watch live streaming</a
+          >
+        </div>
+        <div class="booty2"></div>
+        <div class="booty2text">
+          <a
+            href="https://olympics.com/en/news/sydney-added-world-marathon-major-starting-2025"
+            style="color: black"
+            >Sydney added as World <br />
+            Marathon Major starting in 2025</a
+          >
+        </div>
+        <div class="booty3"></div>
+        <div class="booty3text">
+          <a
+            href="https://olympics.com/en/news/nyc-marathon-2024-chepkirui-nageeye-pro-victories"
+            style="color: black"
+            >Abdi Nageeye, Sheila Chepkirui <br />
+            use closing kicks to claim New <br />
+            York City Marathon wins</a
+          >
+        </div>
+      </section>
+
+      <section>
+        <h1 class="livetext" style="color: black">Live events</h1>
+        <div style="position: relative; bottom: 3350px">
+          <div class="red"></div>
+          <div class="green"></div>
+          <div class="blue"></div>
+        </div>
+        <section style="position: relative; top: 80px">
+          <div class="red1"></div>
+          <div class="redimg2"></div>
+          <h1
+            style="
+              font-size: x-large;
+              position: relative;
+              top: 50px;
+              left: 30px;
+            "
+          >
+            Badminton
+          </h1>
+          <h1>
+            <br />29 Oct - 03 Nov <br />
+            Badmintion| Hlyo Open |<br />
+            Saarbrucken
+          </h1>
+          <div class="redimg"></div>
+          <div class="green2"></div>
+          <div class="greenimg2"></div>
+          <h1
+            style="
+              font-size: x-large;
+              position: relative;
+              top: 50px;
+              left: 30px;
+            "
+          >
+            Figure Skating
+          </h1>
+          <div class="greenimg"></div>
+          <div style="position: relative; left: 25px; bottom: 120px">
+            <h1>
+              <br />01 - 03 Nov <br />
+              Figure Skat| Grand Prix |<br />
+              de France| Angers
+            </h1>
+          </div>
+          <div class="blue3"></div>
+          <div class="blueimg2"></div>
+          <h1
+            style="
+              font-size: x-large;
+              position: relative;
+              top: 50px;
+              left: 30px;
+            "
+          >
+            Badminton
+          </h1>
+          <div class="blueimg"></div>
+          <div style="position: relative; left: 25px; bottom: 140px">
+            <h1>
+              <br />05 - 10 Nov <br />
+              Badmintion| Korea Master |<br />
+              Iksan City
+            </h1>
+          </div>
+        </section>
+      </section>
+
+      <h1 class="olmpicgamestext" style="color: black">Olympics Games</h1>
+      <h1 class="olympicgameview" style="color: black">
+        <a href="https://olympics.com/en/olympic-games " style="color: black"
+          >View all -></a
+        >
+      </h1>
+
+      <div class="scroll-container">
+        <a href="https://olympics.com/fr/paris-2024/"
+          ><img
+            src="image/gpo3co3bpkqsikyznrns.png"
+            alt=" Paris 2024"
+            style="position: relative; right: 500; height: 450px; width: 400px"
+        /></a>
+        <a href="https://olympics.com/en/olympic-games/gangwon-2024"
+          ><img
+            src="image/gang.avif"
+            alt="Forest"
+            style="
+              position: relative;
+              left: 350px;
+              height: 450px;
+              width: 400px;
+            "
+        /></a>
+        <a href="https://milanocortina2026.olympics.com/it"
+          ><img
+            src="image/milno.avif"
+            alt="Northern Lights"
+            style="
+              position: relative;
+              left: 650px;
+              height: 450px;
+              width: 400px;
+            "
+        /></a>
+        <a
+          href="https://la28.org/?utm_source=web&utm_medium=Organic&utm_campaign=24GenEngagement&utm_term=&utm_content=iocfanfacingpage"
+        >
+          <img
+            src="image/LA.avif"
+            alt="Mountains"
+            style="
+              position: relative;
+              left: 750px;
+              height: 450px;
+              width: 400px;
+            "
+        /></a>
+        <a href="https://olympics.com/en/sports/">
+          <img
+            src="image/french.avif"
+            alt="Mountains"
+            style="
+              position: relative;
+              left: 850px;
+              height: 500px;
+              width: 450px;
+            "
+        /></a>
+        <a href="https://olympics.com/en/brisbane-2032">
+          <img
+            src="image/brisbane.avif"
+            alt="Mountains"
+            style="
+              position: relative;
+              left: 1000px;
+              height: 550px;
+              width: 450px;
+            "
+        /></a>
+        <a href="https://olympics.com/en/sports/"
+          ><img
+            src="image/salt.avif"
+            alt="Mountains"
+            style="
+              position: relative;
+              left: 1050px;
+              height: 500px;
+              width: 400px;
+            "
+        /></a>
+      </div>
+    </div>
+
+    <!-- <section class="footerbottom">
     <footer class="bg-dark text-white pt-5 pb-4">
         <div class="container text-center text-md-left">
         <div class="row text-center text-md-left">       
@@ -1045,16 +1640,12 @@ div.scroll-container img {
                 <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fa-brands fa-youtube"></i></a>
             </li>
           </ul>
-        </div> -->
+        </div>
        </div>
 
         </div>
         </div>
     </footer>
-   </section>
-
-  
-
-   
-</body>
+   </section> -->
+  </body>
 </html>
