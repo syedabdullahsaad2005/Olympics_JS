@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS CODES/forgot.css" />
+
+    <title>Forgot Password</title>
+</head>
+
+<body>
+    <div class="card">
+        <p class="lock-icon"><i class="fas fa-lock"></i></p>
+        <h2>Forgot Password?</h2>
+        <p>You can reset your Password here</p>
+        <form id="forgotPasswordForm" onsubmit="validateEmail(); return false;">
+            <input type="text" id="emailInput" class="passInput" placeholder="Email address" required>
+            <button type="submit">Send My Password</button>
+            <p id="error-message" style="color: red; display: none;">Please enter a valid email address.</p>
+        </form>
+    </div>
+
+    <script>
+        function validateEmail() {
+            const emailInput = document.getElementById('emailInput').value;
+            const errorMessage = document.getElementById('error-message');
+            const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+            if (!emailPattern.test(emailInput)) {
+                errorMessage.style.display = 'block';
+                console.log("Invalid email address entered.");
+                return false;
+            }            
+            errorMessage.style.display = 'none';
+            alert("Password reset link has been sent to your email.");
+            console.log("Redirecting to login.html");
+
+            window.location.replace("login.html");
+            return true;
+        }
+    </script>
+</body>
+
+</html>
