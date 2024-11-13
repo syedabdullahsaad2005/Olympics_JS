@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<style>
+  .sportsclass{
+   
+   
+   background-color: white;
+   overflow: hidden;
+   white-space: nowrap; 
+   /* animation: slideIn 0.5s ease-out forwards; */
+   transition: transform 0.5s ease;
+ 
+   
+  
+   /* display: flex !important; */
+
+}
+     
+.sportsclass:hover{
+   /* transform: scale(1.05); */
+   background-color: rgb(0, 0, 0);
+   color: #ffffff;
+   width: 300px;
+   overflow: hidden;
+   height: 40%;
+}
+
+  /* .dropdown{
+              height: 150px;
+              width: 810px;
+              background-color: rgb(255, 255, 255);
+              overflow-y: scroll;
+              overflow-x: scroll;
+              border: 2px solid white;
+              font-size: 45px;
+              position: relative;
+              
+            */
+        
+
+        
+.webtext{
+    position: relative;
+    letter-spacing: -4px;
+   
+    font-size: 100px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.webtext2{
+    
+    font-size: 30px; }
+    .webbox{
+    height: 90px;
+    width: 450px;
+    position: relative;
+    display: flex;
+    font-size: 30px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+    
+}
+.webimage{
+    background-image: url(image/bm9hqv2gycd78gazgjwp.avif);
+    height: 400px;
+    width: 800px;
+    position: relative;
+   
+} 
+.newstext{
+    letter-spacing: -1px;
+    position: relative;
+   top: 10px;
+   display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+   
+
+}
+.newsimg{
+    position: relative;
+    height: 427px;
+    width: 620px;
+    transition: transform .2s; /* Animation */
+    overflow: hidden;
+    background-image: url(image/tzcgmk9tkua8q7eoavjh.avif);
+  
+}
+.newsimg:hover{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+     display:inline-flex;
+    height: 427px;
+}
+.india{
+    position: relative;
+    height: 360px;
+    width: 630px;
+    transition: transform .2s; /* Animation */
+  overflow: hidden;
+    background-image: url(image/hbpte1ekhti2cnustaxd.avif);
+}
+.india:hover{
+    transform: scale(1.2);
+    
+}
+.indiatext{
+  
+  position: relative;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  
+}
+.booty1{
+background-image: url(image/1.avif);
+height: 270px;
+width: 400px;
+
+
+}
+.booty1:hover{
+    transform: rotateZ(90deg);
+    transform: rotateY(150deg);
+    transform: rotateX(150deg);
+    transform: translate(30px, 20px);
+
+    
+}
+.booty2{
+background-image: url(image/2.avif);
+height: 270px;
+width: 400px;
+
+
+}
+.booty2:hover{
+    /* transform: rotateZ(90deg);
+    transform: rotateY(150deg);
+    transform: rotateX(150deg); */
+    transform: translate(10px, 20px);
+}
+.booty3{
+background-image: url(image/3.avif);
+height: 270px;
+width: 450px;
+
+
+
+}
+.booty3:hover{
+     transform: rotate(20deg);  
+    transform: rotate(-20deg);
+    /* transform: rotateX(150deg); */
+    transform: translate(30px, 20px);
+}
+.booty1text{
+position: relative;
+
+font-size: 18px;
+
+
+}
+
+.booty2text{
+ position: relative;
+
+font-size: 18px;    
+}
+
+.booty3text{
+height: 270px;
+width: 450px;
+
+position: relative;
+
+font-size: 18px;
+}
+
+.redimg{
+    background-image: url(image/bwf.avif);
+    height: 180px;
+    width: 150px;
+    position: relative;
+  
+}
+
+.redimg2{
+    background-image: url(image/red1.avif);
+    height: 170px;
+    width: 573px;
+    position: relative;
+    
+    
+}
+.redimg2:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+    }
+    .greenimg{
+    background-image: url(image/isu.avif);
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 435px;
+    top: -65px; 
+}
+.greenimg2{
+    background-image: url(image/green2.avif);
+    height: 180px;
+    width: 270px;
+    top: px;
+    position: relative;
+    
+}
+.greenimg2:hover{
+    transform: scale(1.2);
+}
+.blueimg{
+    background-image: url(image/bwf.avif);
+    height: 180px;
+    width: 120px;
+    position: relative;
+   overflow: hidden ;
+}
+.blueimg2{
+    background-image: url(image/blue2.avif);
+    height: 170px;
+    width: 470px;
+    position: relative;
+    
+}
+.blueimg2:hover{
+    transform: scale(1.2);
+  
+}
+div.scroll-container {
+    
+    background-color: #ffffff;
+    border: 3px solid rgb(255, 255, 255);
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    position: relative;
+    /* top: 9500px;
+    left: 500px; */
+    height: 800px;
+    
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    max-width: 1900px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;}
+
+    .pageimg{
+      height:650px;
+      background-image: url(image/sxcbnjmjggccmainav7e.avif);
+       width: 850px;
+       top: 590px;
+    }
+    .google{
+      height: 40px;
+      width: 120px;
+      position: relative;
+      left: 30px;
+      top: 1800px;
+      background-image: url(image/app-store-en.svg);
+    }
+.apple{
+  height: 500px;
+      width: 550px;
+      position: relative;
+      left: 70px;
+      top: 1500px;
+      background-image: url(image/app\ \(1\).png);
+}
+</style>
+<body>
+
+<div class=" jumbotron text-center " style="background-color: red; width: 100%;" >
+
+  <h1 style="font-size: 184px;"><b>SP OR TS</b></h1>
+  <div class="container mt-5">
+    <div class="dropdown">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" style="background-color: rgb(255, 255, 255); color: black; font-size: 16px; display:flex;">
+          ALL OLYMPIC GAMES
+      </button>
+      <ul class="dropdown-menu">
+          <li><a href="#" style="color: black;">All Olympic Games</a></li>
+          <li><a href="#" style="color: black;">Olympic Games</a></li>
+          <li><a href="#" style="color: black;">Olympic Winter Games</a></li>
+          <li><a href="#" style="color: black;">Summer Youth Olympic Games</a></li>
+          <li><a href="#" style="color: black;">Winter Youth Olympic Games</a></li>
+      </ul>
+  </div>
+  
+  <div class="dropdown">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" style="background-color: rgb(255, 255, 255); color: black; font-size: 20px; display: flex; justify-content: left;">
+          All Olympic Editions
+      </button>
+      <ul class="dropdown-menu" style="color: black;">
+          <li><a href="#" style="color: black;">Salt Lake City-Utah 2034</a></li>
+          <li><a href="#" style="color: black;">Brisbane 2032</a></li>
+          <li><a href="#" style="color: black;">French Alps 2023</a></li>
+          <li><a href="#" style="color: black;">LA 2028</a></li>
+          <li><a href="#" style="color: black;">Dakar 2026</a></li>
+          <li><a href="#" style="color: black;">Milano Cortina 2026</a></li>
+          <li><a href="#" style="color: black;">Paris 2024</a></li>
+          <li><a href="#" style="color: black;">Gangwon 2024</a></li>
+          <li><a href="#" style="color: black;">Beijing 2022</a></li>
+          <li><a href="#" style="color: black;">Tokyo 2020</a></li>
+          <li><a href="#" style="color: black;">Lausanne 2020</a></li>
+          <li><a href="#" style="color: black;">Buenos Aires 2018</a></li>
+          <li><a href="#" style="color: black;">PyeongChang 2018</a></li>
+          <li><a href="#" style="color: black;">Rio 2016</a></li>
+          <li><a href="#" style="color: black;">Lillehammer 2016</a></li>
+          <li><a href="#" style="color: black;">Sochi 2014</a></li>
+          <li><a href="#" style="color: black;">Nanjing 2014</a></li>
+          <li><a href="#" style="color: black;">London 2012</a></li>
+          <li><a href="#" style="color: black;">Innsbruck 2012</a></li>
+          <li><a href="#" style="color: black;">Singapore 2010</a></li>
+          <li><a href="#" style="color: black;">Vancouver 2010</a></li>
+          <li><a href="#" style="color: black;">Beijing 2008</a></li>
+          <li><a href="#" style="color: black;">Turin 2006</a></li>
+          <li><a href="#" style="color: black;">Athens 2004</a></li>
+          <li><a href="#" style="color: black;">Salt Lake City 2002</a></li>
+          <li><a href="#" style="color: black;">Sydney 2000</a></li>
+          <li><a href="#" style="color: black;">Nagano 1998</a></li>
+          <li><a href="#" style="color: black;">Atlanta 1996</a></li>
+          <li><a href="#" style="color: black;">Albertville 1992</a></li>
+          <li><a href="#" style="color: black;">Barcelona 1992</a></li>
+          <li><a href="#" style="color: black;">Calgary 1988</a></li>
+          <li><a href="#" style="color: black;">Seoul 1988</a></li>
+          <li><a href="#" style="color: black;">Sarajevo 1984</a></li>
+          <li><a href="#" style="color: black;">Lake Placid 1980</a></li>
+          <li><a href="#" style="color: black;">Moscow 1980</a></li>
+          <li><a href="#" style="color: black;">Innsbruck 1976</a></li>
+          <li><a href="#" style="color: black;">Montreal 1976</a></li>
+          <li><a href="#" style="color: black;">Sapporo 1972</a></li>
+          <li><a href="#" style="color: black;">Munich 1972</a></li>
+          <li><a href="#" style="color: black;">Grenoble 1968</a></li>
+          <li><a href="#" style="color: black;">Mexico City 1968</a></li>
+          <li><a href="#" style="color: black;">Innsbruck 1964</a></li>
+          <li><a href="#" style="color: black;">Tokyo 1964</a></li>
+          <li><a href="#" style="color: black;">Squaw Valley 1960</a></li>
+          <li><a href="#" style="color: black;">Rome 1960</a></li>
+          <li><a href="#" style="color: black;">Cortina d'Ampezzo 1956</a></li>
+          <li><a href="#" style="color: black;">Oslo 1952</a></li>
+          <li><a href="#" style="color: black;">Helsinki 1952</a></li>
+          <li><a href="#" style="color: black;">St. Moritz 1948</a></li>
+          <li><a href="#" style="color: black;">London 1948</a></li>
+          <li><a href="#" style="color: black;">Berlin 1936</a></li>
+          <li><a href="#" style="color: black;">Los Angeles 1932</a></li>
+          <li><a href="#" style="color: black;">Paris 1924</a></li>
+          <li><a href="#" style="color: black;">Antwerp 1920</a></li>
+          <li><a href="#" style="color: black;">Stockholm 1912</a></li>
+          <li><a href="#" style="color: black;">London 1908</a></li>
+          <li><a href="#" style="color: black;">St. Louis 1904</a></li>
+          <li><a href="#" style="color: black;">Paris 1900</a></li>
+          <li><a href="#" style="color: black;">Athens 1896</a></li>
+      </ul>
+  </div>
+  
+    </div>
+</div>
+</div>
+</ul>
+<div class="container">
+  <div class="row">
+    <div class=" col-sm-4">
+        <h1 style="font-size: 50px;">A</h1>
+        <ul style="list-style-type: none; display: contents; font-size: x-large">
+       
+                
+          <li class="sportsclass" style="text-overflow:clip;   "
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'">  Acrobatic Symmetric <br></li>
+ 
+                  
+          <li class="sportsclass" style="text-overflow:clip;   "
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"> Alpine Skiing</li> 
+ 
+             <li class="sportsclass" style="text-overflow:clip;   "
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'">  Archery <br></li>
+ 
+            <li class="sportsclass" style="text-overflow:clip;   "
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"> Artistic Gymmnastic <br></li>
+ 
+             
+            <li class="sportsclass" style="text-overflow:clip;   "
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'"> Artistic Swimming <br></li>
+ 
+             <li class="sportsclass" style="text-overflow:clip;   "
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)'">Althlestic </li>
+          
+       
+        </ul>
+    </div>
+    <div class="col-sm-4" >
+      <h1 style="font-size: 50px;">B</h1>
+      <ul style="list-style-type: none; display: contents; font-size: x-large">
+      <li class="sportsclass" style="text-overflow:clip;   "
+      onmouseover="this.style.transform='translateX(20px)'"
+      onmouseout="this.style.transform='translateX(0)'">Badminton <br> </li> 
+      
+      <li class="sportsclass" style="text-overflow:clip;   "
+      onmouseover="this.style.transform='translateX(20px)'"
+      onmouseout="this.style.transform='translateX(0)'">   Baseball 5 <br></li> 
+
+   <li class="sportsclass" style="text-overflow:clip;   "
+      onmouseover="this.style.transform='translateX(20px)'"
+      onmouseout="this.style.transform='translateX(0)'">  Baseball Softball <br></li> 
+      
+
+      <li class="sportsclass" style="text-overflow:clip;   "
+      onmouseover="this.style.transform='translateX(20px)'"
+      onmouseout="this.style.transform='translateX(0)'">      Basktball <br> </li>
+
+  
+   <li class="sportsclass" style="text-overflow:clip;   "
+      onmouseover="this.style.transform='translateX(20px)'"
+      onmouseout="this.style.transform='translateX(0)'">   Basktball 3x3 <br></li>
+
+ 
+   <li class="sportsclass" style="text-overflow:clip;   "
+      onmouseover="this.style.transform='translateX(20px)'"
+      onmouseout="this.style.transform='translateX(0)'">     Beach Handball <br></li>
+
+  
+   <li class="sportsclass" style="text-overflow:clip;   "
+      onmouseover="this.style.transform='translateX(20px)'"
+      onmouseout="this.style.transform='translateX(0)'">   Beach Vollyball <br> </li>
+
+  
+   <li class="sportsclass" style="text-overflow:clip;   "
+      onmouseover="this.style.transform='translateX(20px)'"
+      onmouseout="this.style.transform='translateX(0)'">   Biathlon </li>
+
+    
+   <li class="sportsclass" style="text-overflow:clip;   "
+      onmouseover="this.style.transform='translateX(20px)'"
+      onmouseout="this.style.transform='translateX(0)'"> Bobsleigh </li>
+
+     
+   <li class="sportsclass" style="text-overflow:clip;   "
+      onmouseover="this.style.transform='translateX(20px)'"
+      onmouseout="this.style.transform='translateX(0)'"> Boxing </li>
+
+      
+   <li class="sportsclass" style="text-overflow:clip;   "
+      onmouseover="this.style.transform='translateX(20px)'"
+      onmouseout="this.style.transform='translateX(0)'"> Breaking </li>
+      </ul>
+    </div>
+  
+    
+    <div class="col-sm-4" style="list-style-type: none; display: contents; font-size: x-large">
+      <h1 style="font-size:50px;">C</h1>
+      <ul style="list-style-type: none; display: contents;">
+      <li class="sportsclass" style="text-overflow:clip;   "
+         onmouseover="this.style.transform='translateX(20px)'"
+         onmouseout="this.style.transform='translateX(0)'"> 
+            Canone Slalom <br></li>
+            
+         <li class="sportsclass" style="text-overflow:clip;   "
+         onmouseover="this.style.transform='translateX(20px)'"
+         onmouseout="this.style.transform='translateX(0)'">  Canoe Sprint <br></li>
+         
+         <li class="sportsclass" style="text-overflow:clip;   "
+            onmouseover="this.style.transform='translateX(20px)'"
+            onmouseout="this.style.transform='translateX(0)'">  Coastal Rowing <br></li>
+            
+         <li class="sportsclass" style="text-overflow:clip;   "
+         onmouseover="this.style.transform='translateX(20px)'"
+         onmouseout="this.style.transform='translateX(0)'">  Cricket <br></li>
+         
+         <li class="sportsclass" style="text-overflow:clip;   "
+            onmouseover="this.style.transform='translateX(20px)'"
+            onmouseout="this.style.transform='translateX(0)'">  Cross-Country Skiing <br></li>
+            
+         <li class="sportsclass" style="text-overflow:clip;   "
+         onmouseover="this.style.transform='translateX(20px)'"
+         onmouseout="this.style.transform='translateX(0)'">  Curling <br></li>
+         
+         <li class="sportsclass" style="text-overflow:clip;   "
+            onmouseover="this.style.transform='translateX(20px)'"
+            onmouseout="this.style.transform='translateX(0)'">  Cycling BMX Freestyle <br></li>
+            
+         <li class="sportsclass" style="text-overflow:clip;   "
+         onmouseover="this.style.transform='translateX(20px)'"
+         onmouseout="this.style.transform='translateX(0)'">  Cycling BMX Racing <br></li>
+         
+         <li class="sportsclass" style="text-overflow:clip;   "
+            onmouseover="this.style.transform='translateX(20px)'"
+            onmouseout="this.style.transform='translateX(0)'">  Cycling Mountain Bike <br> </li>
+            
+         <li class="sportsclass" style="text-overflow:clip;   "
+         onmouseover="this.style.transform='translateX(20px)'"
+         onmouseout="this.style.transform='translateX(0)'">  Cycling Road <br></li>
+         
+         <li class="sportsclass" style="text-overflow:clip;   "
+            onmouseover="this.style.transform='translateX(20px)'"
+            onmouseout="this.style.transform='translateX(0)'">  Cycling Track </li> </ul>      
+     
+    </div>
+    <div class="col-md-4" >
+      <h1 style="font-size: 50px;">D</h1>        
+      <ul style="list-style-type: none; display: contents;font-size: x-large ">
+       <li>
+        <li class="sportsclass" style="text-overflow:clip;   "
+        onmouseover="this.style.transform='translateX(20px)'"
+        onmouseout="this.style.transform='translateX(0)' " >   D i v i n g </li>
+       </li>
+      </ul>
+    </div>
+    <div class="col-sm-4">
+      <h1 style="font-size: 50px;">E</h1>
+      <ul style="list-style-type: none; display: contents; font-size: x-large">
+      <li class="sportsclass" style="text-overflow:clip;   "
+        onmouseover="this.style.transform='translateX(20px)'"
+        onmouseout="this.style.transform='translateX(0)' " >  Equestrian </li> </ul>
+    </div>
+    <div class="col-sm-4">
+      <h1 style="font-size: 50px;">F</h1>
+      <ul style="list-style-type: none; display: contents;font-size: x-large">
+
+
+               
+        <li class="sportsclass" style="text-overflow:clip;   "
+        onmouseover="this.style.transform='translateX(20px)'"
+        onmouseout="this.style.transform='translateX(0)' " > Figure Skating </li>
+
+            
+        <li class="sportsclass" style="text-overflow:clip;   "
+        onmouseover="this.style.transform='translateX(20px)'"
+        onmouseout="this.style.transform='translateX(0)' " >    Flag Football <br> </li>
+
+               
+        <li class="sportsclass" style="text-overflow:clip;   "
+        onmouseover="this.style.transform='translateX(20px)'"
+        onmouseout="this.style.transform='translateX(0)' " >  Football <br> </li>
+
+                
+        <li class="sportsclass" style="text-overflow:clip;   "
+        onmouseover="this.style.transform='translateX(20px)'"
+        onmouseout="this.style.transform='translateX(0)' " > Freestyle Skiing </li>
+               
+        <li class="sportsclass" style="text-overflow:clip;   "
+        onmouseover="this.style.transform='translateX(20px)'"
+        onmouseout="this.style.transform='translateX(0)' " >   Futsal </li>
+        
+        <li class="sportsclass" style=" width: 10%; text-overflow:clip;   "
+        onmouseover="this.style.transform='translateX(20px)'"
+        onmouseout="this.style.transform='translateX(0)' ">Fencing</li>
+       </ul>
+    </div>
+    <div class="col-md-4" >
+      <h1 style="font-size: 50px;">G</h1>        
+      <ul style="list-style-type: none; display: contents; font-size: x-large">
+
+        <li class="sportsclass" style="text-overflow:clip;   "
+        onmouseover="this.style.transform='translateX(20px)'"
+        onmouseout="this.style.transform='translateX(0)' " >G o l f</li>
+       
+      </ul> </div>
+      <div class="col-md-4" >
+        <h1 style="font-size: 50px;">H</h1>        
+        <ul style="list-style-type: none; display: contents;font-size: x-large">
+  
+          <li class="sportsclass" style="text-overflow:clip;   "
+          onmouseover="this.style.transform='translateX(20px)'"
+          onmouseout="this.style.transform='translateX(0)' " >Hockey</li>
+          <li class="sportsclass" style="text-overflow:clip;   "
+            onmouseover="this.style.transform='translateX(20px)'"
+            onmouseout="this.style.transform='translateX(0)' " > Handball <br></li>
+         
+        </ul> </div>
+        <div class="col-md-4" >
+          <h1 style="font-size: 50px;">I</h1>        
+          <ul style="list-style-type: none; display: contents ;font-size: x-large">
+    
+            <li class="sportsclass" style="text-overflow:clip;   "
+            onmouseover="this.style.transform='translateX(20px)'"
+            onmouseout="this.style.transform='translateX(0)' " >Ice Hockey</li>
+          
+           
+          </ul> </div>
+      
+   
+                 
+                </ul> </div>
+                <div class="col-md-4" >
+                  <h1 style="font-size: 50px;">J</h1>        
+                  <ul style="list-style-type: none; display: contents; font-size: x-large">
+            
+                    <li class="sportsclass" style="text-overflow:clip;   "
+                    onmouseover="this.style.transform='translateX(20px)'"
+                    onmouseout="this.style.transform='translateX(0)' " >Judo</li>
+    
+                  </ul> </div>
+
+               <div class="col-md-4" >
+              <h1 style="font-size: 50px;">L</h1>        
+              <ul style="list-style-type: none; display: contents; font-size: x-large">
+        
+                <li class="sportsclass" style="text-overflow:clip;   "
+                onmouseover="this.style.transform='translateX(20px)'"
+                onmouseout="this.style.transform='translateX(0)' " >Larcouse</li>
+              
+                    <li class="sportsclass" style="text-overflow:clip;   "
+                    onmouseover="this.style.transform='translateX(20px)'"
+                    onmouseout="this.style.transform='translateX(0)' " >Luge</li> 
+                  </ul>    </div> 
+
+                     <div class="col-md-4" >
+              <h1 style="font-size: 50px;">M</h1>        
+              <ul style="list-style-type: none; display: contents;font-size: x-large">
+        
+                <li class="sportsclass" style="text-overflow:clip;   "
+                onmouseover="this.style.transform='translateX(20px)'"
+                onmouseout="this.style.transform='translateX(0)' " >Modern Penetathlon</li>
+              
+                    <li class="sportsclass" style="text-overflow:clip;   "
+                    onmouseover="this.style.transform='translateX(20px)'"
+                    onmouseout="this.style.transform='translateX(0)' " >Marathon Swimming</li> 
+                  </ul>    </div> 
+                  
+                  
+                  <div class="col-md-4" >
+                    <h1 style="font-size: 50px;">S</h1>        
+                    <ul style="list-style-type: none; display: contents; font-size: x-large;">
+              
+                      <li class="sportsclass" style="text-overflow:clip;   "
+                      onmouseover="this.style.transform='translateX(20px)'"
+                      onmouseout="this.style.transform='translateX(0)' " >Sailing</li>
+                    
+                          <li class="sportsclass" style="text-overflow:clip;   "
+                          onmouseover="this.style.transform='translateX(20px)'"
+                          onmouseout="this.style.transform='translateX(0)' " > Shooting</li> 
+                          
+                          <li class="sportsclass" style="text-overflow:clip;   "
+                          onmouseover="this.style.transform='translateX(20px)'"
+                          onmouseout="this.style.transform='translateX(0)' " >Short Track Speed Skating  </li> 
+                          
+                          <li class="sportsclass" style="text-overflow:clip;   "
+                          onmouseover="this.style.transform='translateX(20px)'"
+                          onmouseout="this.style.transform='translateX(0)' " >Skateboarding </li> 
+                          
+                          <li class="sportsclass" style="text-overflow:clip;   "
+                          onmouseover="this.style.transform='translateX(20px)'"
+                          onmouseout="this.style.transform='translateX(0)' " >Skeleton </li> 
+                          
+                          <li class="sportsclass" style="text-overflow:clip;   "
+                          onmouseover="this.style.transform='translateX(20px)'"
+                          onmouseout="this.style.transform='translateX(0)' " > Ski Jumping</li> 
+                          
+                          <li class="sportsclass" style="text-overflow:clip;   "
+                          onmouseover="this.style.transform='translateX(20px)'"
+                          onmouseout="this.style.transform='translateX(0)' " >Ski Mountaineering</li> 
+                          
+                          <li class="sportsclass" style="text-overflow:clip;   "
+                          onmouseover="this.style.transform='translateX(20px)'"
+                          onmouseout="this.style.transform='translateX(0)' " > Speed Skating </li> 
+                          <li class="sportsclass" style="text-overflow:clip;   "
+                          onmouseover="this.style.transform='translateX(20px)'"
+                          onmouseout="this.style.transform='translateX(0)' " >  Sport Climbing </li> 
+                          <li class="sportsclass" style="text-overflow:clip;   "
+                          onmouseover="this.style.transform='translateX(20px)'"
+                          onmouseout="this.style.transform='translateX(0)' " > Surfing</li> 
+                          <li class="sportsclass" style="text-overflow:clip;   "
+                          onmouseover="this.style.transform='translateX(20px)'"
+                          onmouseout="this.style.transform='translateX(0)' " > Squash   </li> 
+                          <li class="sportsclass" style="text-overflow:clip;   "
+                          onmouseover="this.style.transform='translateX(20px)'"
+                          onmouseout="this.style.transform='translateX(0)' " > Swimming</li> 
+
+                          <li class="sportsclass" style="text-overflow:clip;   "
+                          onmouseover="this.style.transform='translateX(20px)'"
+                          onmouseout="this.style.transform='translateX(0)' " > Snowboard</li> 
+                          <li class="sportsclass" style="text-overflow:clip;   "
+                          onmouseover="this.style.transform='translateX(20px)'"
+                          onmouseout="this.style.transform='translateX(0)' " > </li> 
+                          
+                        </ul>    </div> 
+                        <div class="col-md-4" >
+                          <h1 style="font-size: 50px;">T</h1>        
+                          <ul style="list-style-type: none; display: contents; font-size: x-large;">
+                    
+                            <li class="sportsclass" style="text-overflow:clip;   "
+                            onmouseover="this.style.transform='translateX(20px)'"
+                            onmouseout="this.style.transform='translateX(0)' " >Table Tennis</li>
+                          
+                                <li class="sportsclass" style="text-overflow:clip;   "
+                                onmouseover="this.style.transform='translateX(20px)'"
+                                onmouseout="this.style.transform='translateX(0)' " > Tennis </li> 
+                                
+                                <li class="sportsclass" style="text-overflow:clip;   "
+                                onmouseover="this.style.transform='translateX(20px)'"
+                                onmouseout="this.style.transform='translateX(0)' " >Taekwondo </li> 
+                                
+                                <li class="sportsclass" style="text-overflow:clip;   "
+                                onmouseover="this.style.transform='translateX(20px)'"
+                                onmouseout="this.style.transform='translateX(0)' " >Trampoline </li> 
+                                
+                                <li class="sportsclass" style="text-overflow:clip;   "
+                                onmouseover="this.style.transform='translateX(20px)'"
+                                onmouseout="this.style.transform='translateX(0)' " > Triathlon   </li> 
+                          </ul>      
+
+                        
+  </div>
+</div>
+<p style="display: flex ; justify-content: center; color: rgb(172, 166, 166);">______________________________________________________________________________________________________________________________________________________________________</p>
+<div class="  container">
+  
+  <div class="row">
+    <div class="col-sm-10">
+      <div class="webimage"></div>
+      <h1 class="webtext"><b>Paralympic <br>Games</b></h1>
+        <p class="webtext2">The Paralympic Games provide a platform for <br>Para athletes with a diverse range of impairments to showcase their
+       <br>outstanding abilities to millions of spectators and billions of TV viewers.</p>
+       <h class="webbox" style="color: rgb(255, 255, 255);"> <a href="https://www.paralympic.org/" style="color: rgb(255, 255, 255); font-size: 24px; position: relative; left:60px; top: 15px;">  Learn more at Paraolympic.org </a> <br> 
+        <br>
+       </h>
+    </div>
+    <br> 
+    <br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4"  style="position: relative; right: 105px;">
+          <h2 class="newstext" style="display: flex; position: relative; left: 20px ;">Sports Latest News</h2>
+          <div class="newsimg" style="overflow: hidden;"></div>
+           <h class="worldtext" style="font-size: 20px;"><a href="https://olympics.com/en/news/athletics-armand-mondo-duplantis-hengelo-pole-vault-2022" style="color: black;"> Duplantis wins Hengelo pole vault with <br> new 2022 world lead clearance</a></h>  
+      
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-5" style="position: relative; left: 190px;">
+              <div class="india" style="overflow: hidden;"> </div>
+              <div class="indiatext"><a href="https://olympics.com/en/news/balkan-relay-cup-2022-indian-athletes-results" style="color: black; left: 30px;">    Balkan Relay Cup: Indian women's 4x100m  team wins gold; men’s 4x400m team bags silver</a></div>
+            </div>
+
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-10"  >
+                  <div class="booty1"></div>
+                 
+                
+                  <div class="booty1text"><a href="https://olympics.com/en/news/indonesia-masters-2022-badminton-india-live-streaming-telecast-tv-channel" style="color: black;">Indonesia Masters badminton 
+                  <br> 2022: India’s PV Sindhu, Lakshya <br>Sen among top contenders -<br> watch live streaming</a></div>
+                   
+
+
+                   <div class="container">
+                    <div class="row">
+                      <div class="col-sm-8" >
+                        <div class="booty2"></div>
+                      <div class="booty2text"> <a href="https://olympics.com/en/news/sydney-added-world-marathon-major-starting-2025" style="color: black;">Sydney added as World <br> Marathon Major starting in 2025</a></div> </div>
+       
+
+
+                         <div class="container">
+                          <div class="row">
+                            <div class="col-sm-9">
+                              <div class="booty3"></div>
+                            </div> <div class="booty3text"> <a href="https://olympics.com/en/news/nyc-marathon-2024-chepkirui-nageeye-pro-victories" style="color: black;">Abdi Nageeye, Sheila Chepkirui <br> use closing kicks to claim New <br> York City Marathon wins</a></div>
+                            
+                             
+                            <div class="container mt-4" style=" position: relative;top: 230px;" >
+                              
+                              
+                              <div class="card" style="width:400px">
+                                <img class="greenimg2" src="./image/green2.avif" alt="Card image" style=>
+                                <div class="card-body">
+                                  <h1 class="card-title">Figure Skating</h1>
+                                  <p class="card-text"><p> <h3><br> 01 - 03 Nov <br> Figure Skat| Grand Prix |<br> de France| Angers</p></h3>
+
+                                </div>
+                              </div>
+
+                              <div class="container mt-3"  style="position: relative; left: 340px; bottom:372px;">
+                              
+                              
+                                <div class="card" style="width:400px">
+                                  <img class="blueimg2" src="./image/blue2.avif" alt="Card image" style="width:70%">
+                                  <div class="card-body">
+                                   
+                                    <h1 class="card-title"><h1>Badminton <br></h1> </h1>
+                                    <p class="card-text"><p> <h3><br>29 Oct - 03 Nov <br> Badmintion| Hlyo Open |<br> Saarbrucken</p></h3>
+                                    <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+                                  </div> 
+                                </div>
+                                <div class="container mt-3" style="position: relative; left: 370px; bottom:372px;">
+                                <div class="card" style="width:400px">
+                                  <img class="redimg2" src="./image/red1.avif" alt="Card image" style="width:70%">
+                                 
+                                    <h1 class="card-title">Badmintion</h1>
+                                    <p class="card-text"><p> <h3><br>05 - 10 Nov <br> Badmintion| Korea Master |<br> Iksan City</h3>
+                                    <a href="#" class="btn btn-primary">See Profile</a>
+                                  </div>
+                                </div>
+                                <div class="container" style="position: relative; right: 380px;">
+                                  <div class="row"></div>
+                                  <div class="col-sm-10"></div>
+
+                                  <h1>Olympics Games</h1>                                       <br> <p><a href="https://olympics.com/en/olympic-games" style="color: black;"><h4>View all</h4></a></p><br>
+                                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                      <!-- Indicators -->
+                                      <ol class="carousel-indicators">
+                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                                          <li data-target="#myCarousel" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                                   <li data-target="#myCarousel" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                                      </ol>
+                                  
+                                      <!-- Wrapper for slides -->
+                                      <div class="carousel-inner">
+                                        <div class="item active">
+                                          <a href="https://olympics.com/fr/paris-2024/"> <img src="image/gpo3co3bpkqsikyznrns.png" alt="Los Angeles" style=" width: fit-content; height: fit-content; position: relative;left:350px;">
+                                        </div></a>
+                                  
+                                        <div class="item">
+                                          <a href="https://olympics.com/en/olympic-games/gangwon-2024">   <img src="image/gang.avif" alt="Chicago" style="width: fit-content; height: fit-content; position: relative;left:350px;">
+                                        </div> </a>
+                                      
+                                        <div class="item">
+                                          <a href="https://milanocortina2026.olympics.com/it"> <img src="image/milno.avif" alt="New york" style="width: fit-content; height: fit-content; position: relative;left:350px;">
+                                        </div></a>
+                                   <div class="item">
+
+                                        <a href="https://la28.org/?utm_source=web&utm_medium=Organic&utm_campaign=24GenEngagement&utm_term=&utm_content=iocfanfacingpage">  <img src="image/LA.avif" alt="Chicago" style="width: fit-content; height: fit-content;position: relative;left:350px;">
+                                        </div></a>
+                                      
+                                        <div class="item">
+                                          <a href="https://olympics.com/en/sports/"><img src="image/french.avif" alt="New york" style="width: fit-content; height: fit-content; position: relative;left:350px;">
+                                        </div></a> 
+                                       <div class="item">
+                                        <a href="https://olympics.com/en/brisbane-2032">   <img src="image/brisbane.avif" alt="Chicago" style="width: fit-content; height: fit-content; position: relative;left:350px;">
+                                        </div></a>
+                                      
+                                        <div class="item">
+                                          <a href="https://olympics.com/en/sports/">  <img src="image/salt.avif" alt="New york" style="width: fit-content; height: fit-content; position: relative;left:350px;">
+                                        </div> </a>
+                                      </div>
+                                  
+                                      <!-- Left and right controls -->
+                                      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                        <span class="sr-only">Previous</span>
+                                      </a>
+                                      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                        <span class="sr-only">Next</span>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  
+                                  
+                                </div>
+
+
+                                <div class="container" style="position: relative; right: 60px;bottom: 500px; ">
+                                  <div class="row">
+                                    <div class="col-sm-7" >
+                                      <div class="pageimg" style="position: relative; left: 500px;" ></div>
+                                      <a href="https://play.google.com/store/apps/details?id=org.olympic.app.mobile&utm_source=olympics&utm_medium=app-own-organic&utm_campaign=sports-page-app-banner-android_na_na_na-na_na_en_na&utm_content=sports-page-app-banner_na_na_na-na_na_en_na_na_na_na_na" style="top: 1500px; position: relative; left:200px;">  <img src="image/app (1).png"> 
+                                              </a>
+                                      <a href="https://apps.apple.com/us/app/olympics-live-sports-news/id808794344?utm_source=olympics&utm_medium=app-own-organic&utm_campaign=sports-page-app-banner-ios_na_na_na-na_na_en_na&utm_content=sports-page-app-banner_na_na_na-na_na_en_na_na_na_na_na" style="position: relative; top: 1500px; right:450px; "> <img src="image/app-store-en.svg"> </a>
+                                      <h1 style="color: black; font-size: 100px;"><b>Insider Access to the <br> Olympic Games</b></h1>
+                                      <p style="font-size: 40px;">Follow the Olympic journey with the official Olympics app. Insider access to live events, Olympic qualifiers, and the Paris 2024 Summer Olympics.  The Olympics app is your personal guide and companion to the Olympic and Paralympic Games.  Get the latest updates, schedules, breaking news, original series, and the passing of the torch right in your pocket.</p>
+                                      
+                                    </div>
+                                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>    
+
+</html>
